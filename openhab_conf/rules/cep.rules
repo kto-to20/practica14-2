@@ -1,0 +1,60 @@
+rule "Hot and Humid Detection"
+when
+    Item TempStream changed or
+    Item HumStream changed
+then
+
+    if((TempStream.state as Number) > 27 &&
+       (HumStream.state as Number) > 75){
+
+        HotHumidAlert.postUpdate("ALERT")
+
+    } else {
+
+        HotHumidAlert.postUpdate("NORMAL")
+
+    }
+
+end
+
+
+
+rule "Dark Room Detection"
+when
+    Item LightStream changed
+then
+
+    if((LightStream.state as Number) < 80){
+
+        DarkRoomEvent.postUpdate("DARK")
+
+    } else {
+
+        DarkRoomEvent.postUpdate("BRIGHT")
+
+    }
+
+end
+
+
+
+rule "Comfort Environment Detection"
+when
+    Item TempStream changed or
+    Item HumStream changed
+then
+
+    val Number t = TempStream.state as Number
+    val Number h = HumStream.state as Number
+
+    if(t >= 21 && t <= 25 && h >= 40 && h <= 60){
+
+        ComfortState.postUpdate("COMFORT")
+
+    } else {
+
+        ComfortState.postUpdate("UNCOMFORT")
+
+    }
+
+end

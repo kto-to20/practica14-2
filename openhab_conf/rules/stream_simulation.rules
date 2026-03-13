@@ -1,0 +1,37 @@
+rule "Stream Temperature"
+when
+    Time cron "0/10 * * * * ?"
+then
+    val Number temp = (Math::random * 10) + 22
+
+    Temperature.postUpdate(temp)
+    TempStream.postUpdate(temp)
+
+    logInfo("STREAM","TempStream = " + temp)
+end
+
+
+rule "Stream Humidity"
+when
+    Time cron "0/12 * * * * ?"
+then
+    val Number hum = (Math::random * 40) + 40
+
+    Humidity.postUpdate(hum)
+    HumStream.postUpdate(hum)
+
+    logInfo("STREAM","HumStream = " + hum)
+end
+
+
+rule "Stream Light"
+when
+    Time cron "0/14 * * * * ?"
+then
+    val Number light = (Math::random * 300)
+
+    LightLevel.postUpdate(light)
+    LightStream.postUpdate(light)
+
+    logInfo("STREAM","LightStream = " + light)
+end

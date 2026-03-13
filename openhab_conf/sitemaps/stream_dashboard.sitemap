@@ -1,0 +1,25 @@
+sitemap stream_dashboard label="IoT Stream Processing Dashboard"
+{
+
+Frame label="Data Streams"
+{
+Text item=TempStream
+Text item=HumStream
+Text item=LightStream
+}
+
+Frame label="Sensor Values"
+{
+Text item=Temperature
+Text item=Humidity
+Text item=LightLevel
+}
+
+Frame label="Complex Events"
+{
+Text item=HotHumidAlert
+Text item=DarkRoomEvent
+Text item=ComfortState
+}
+
+}

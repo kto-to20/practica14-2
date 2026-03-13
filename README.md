@@ -1,13 +1,12 @@
-# IoT Multi-Sensor Analytics System using OpenHAB
+# IoT Real-Time Stream Processing System using OpenHAB
 
 ## Project Description
 
-This project demonstrates a **Time-Series IoT Analytics system** implemented using OpenHAB.
+This project demonstrates a **Real-Time IoT Stream Processing system** implemented using OpenHAB Rules.
 
-The system collects data from multiple virtual IoT sensors and performs **real-time analytics** using OpenHAB Rules.
-Sensor values are simulated to demonstrate how IoT data can be processed, analyzed, and visualized.
+The system processes multiple IoT data streams and performs **Complex Event Processing (CEP)** to detect patterns and generate composite events.
 
-The main goal of this project is to implement **basic time-series analytics**, including statistical calculations and trend detection.
+Sensor data streams are simulated in real time and processed through a rule engine to identify environmental conditions and trigger alerts.
 
 ---
 
@@ -16,60 +15,64 @@ The main goal of this project is to implement **basic time-series analytics**, i
 ```mermaid
 graph TD
 
-Sensors --> DataCollection
-DataCollection --> AnalyticsRules
-AnalyticsRules --> CalculatedMetrics
-CalculatedMetrics --> Dashboard
+Sensors --> DataStreams
+DataStreams --> CEPProcessing
+CEPProcessing --> CompositeEvents
+CompositeEvents --> Dashboard
 ```
 
 ---
 
-## Sensors
+## Data Streams
 
-The system simulates several IoT sensors:
+The system processes multiple real-time streams:
 
-* Temperature sensor
-* Humidity sensor
-* Light sensor
+* Temperature stream
+* Humidity stream
+* Light level stream
 
-Sensor data is generated automatically using OpenHAB Rules to simulate real-world sensor behavior.
+Each stream continuously generates values using OpenHAB rules to simulate IoT devices.
 
 ---
 
-## Analytics Features
+## Complex Event Processing (CEP)
 
-The system performs several analytical operations:
+The system analyzes streams and detects patterns using CEP rules.
 
-### Statistical Calculations
+Examples of composite events:
 
-* Average temperature
-* Maximum temperature
-* Minimum temperature
-* Average humidity
+### HotHumidAlert
 
-### Trend Detection
+Triggered when:
 
-The system determines the **temperature trend direction**:
+* Temperature > 27°C
+* Humidity > 75%
 
-* UP – temperature increasing
-* DOWN – temperature decreasing
-* STABLE – no significant change
+### DarkRoomEvent
+
+Triggered when:
+
+* Light level < 80 lx
+
+### ComfortState
+
+Evaluates environmental comfort conditions based on temperature and humidity ranges.
 
 ---
 
 ## OpenHAB Configuration
 
-The project includes the following configuration files:
+The system uses the following configuration files:
 
 items/
-analytics_items.items
+stream_items.items
 
 rules/
-sensor_simulation.rules
-analytics.rules
+stream_simulation.rules
+cep.rules
 
 sitemaps/
-analytics_dashboard.sitemap
+stream_dashboard.sitemap
 
 ---
 
@@ -77,13 +80,23 @@ analytics_dashboard.sitemap
 
 The dashboard visualizes:
 
-* real-time sensor values
-* statistical metrics
-* trend detection results
+* real-time data streams
+* sensor values
+* detected complex events
 
 Dashboard URL:
 
-http://localhost:8080/basicui/app?sitemap=analytics_dashboard
+http://localhost:8080/basicui/app?sitemap=stream_dashboard
+
+---
+
+## Real-Time Processing Workflow
+
+1. Sensor data streams are generated in real time.
+2. Streams are processed using OpenHAB rules.
+3. CEP logic analyzes correlations between streams.
+4. Composite events are generated when specific conditions occur.
+5. Results are visualized in the dashboard.
 
 ---
 
@@ -91,24 +104,22 @@ http://localhost:8080/basicui/app?sitemap=analytics_dashboard
 
 The demonstration shows:
 
-* sensor data simulation
-* real-time analytics calculations
-* automatic trend detection
-* dashboard visualization
+* multiple data streams updating in real time
+* complex event detection
+* correlation between sensor streams
+* visualization of composite events
 
 ---
 
-# Система аналітики IoT сенсорів з використанням OpenHAB
+# Система Real-Time Stream Processing для IoT з використанням OpenHAB
 
 ## Опис проєкту
 
-Цей проєкт демонструє систему **аналітики IoT даних у часових рядах** на базі OpenHAB.
+Цей проєкт демонструє систему **обробки потоків IoT даних у реальному часі**, реалізовану за допомогою правил OpenHAB.
 
-Система збирає дані з декількох віртуальних сенсорів та виконує **аналітичну обробку даних у реальному часі** за допомогою правил OpenHAB.
+Система обробляє декілька потоків даних та виконує **Complex Event Processing (CEP)** для виявлення подій та закономірностей.
 
-Значення сенсорів генеруються автоматично для демонстрації роботи системи збору та аналізу IoT даних.
-
-Основна мета роботи — реалізація **базової аналітики часових рядів**.
+Потоки даних генеруються автоматично для імітації роботи реальних IoT сенсорів.
 
 ---
 
@@ -117,60 +128,64 @@ The demonstration shows:
 ```mermaid
 graph TD
 
-Sensors --> DataCollection
-DataCollection --> AnalyticsRules
-AnalyticsRules --> CalculatedMetrics
-CalculatedMetrics --> Dashboard
+Sensors --> DataStreams
+DataStreams --> CEPProcessing
+CEPProcessing --> CompositeEvents
+CompositeEvents --> Dashboard
 ```
 
 ---
 
-## Сенсори
+## Потоки даних
 
-У системі використовуються віртуальні IoT сенсори:
+У системі використовуються кілька потоків даних:
 
-* сенсор температури
-* сенсор вологості
-* сенсор освітлення
+* потік температури
+* потік вологості
+* потік освітлення
 
-Дані генеруються автоматично за допомогою OpenHAB Rules.
+Дані генеруються у реальному часі за допомогою OpenHAB Rules.
 
 ---
 
-## Аналітичні можливості
+## Complex Event Processing (CEP)
 
-Система виконує такі аналітичні обчислення.
+Система аналізує потоки даних та визначає події на основі заданих правил.
 
-### Статистичні показники
+Приклади composite events:
 
-* середня температура
-* максимальна температура
-* мінімальна температура
-* середня вологість
+### HotHumidAlert
 
-### Визначення тренду
+Виникає коли:
 
-Система визначає напрямок зміни температури:
+* температура > 27°C
+* вологість > 75%
 
-* UP — температура зростає
-* DOWN — температура знижується
-* STABLE — без значних змін
+### DarkRoomEvent
+
+Виникає коли:
+
+* рівень освітлення < 80 lx
+
+### ComfortState
+
+Оцінює комфортність середовища на основі температури та вологості.
 
 ---
 
 ## Конфігурація OpenHAB
 
-Проєкт містить такі конфігураційні файли:
+У проєкті використовуються такі файли:
 
 items/
-analytics_items.items
+stream_items.items
 
 rules/
-sensor_simulation.rules
-analytics.rules
+stream_simulation.rules
+cep.rules
 
 sitemaps/
-analytics_dashboard.sitemap
+stream_dashboard.sitemap
 
 ---
 
@@ -178,13 +193,23 @@ analytics_dashboard.sitemap
 
 Dashboard відображає:
 
-* значення сенсорів у реальному часі
-* статистичні показники
-* результати аналітики
+* потоки даних у реальному часі
+* значення сенсорів
+* виявлені комплексні події
 
 Адреса dashboard:
 
-http://localhost:8080/basicui/app?sitemap=analytics_dashboard
+http://localhost:8080/basicui/app?sitemap=stream_dashboard
+
+---
+
+## Логіка роботи системи
+
+1. Потоки даних генеруються сенсорами.
+2. Дані передаються до OpenHAB.
+3. CEP правила аналізують потоки та визначають події.
+4. Генеруються composite events.
+5. Результати відображаються у dashboard.
 
 ---
 
@@ -192,7 +217,7 @@ http://localhost:8080/basicui/app?sitemap=analytics_dashboard
 
 Під час демонстрації показується:
 
-* симуляція сенсорних даних
-* аналітика IoT даних у реальному часі
-* визначення трендів
-* візуалізація даних у dashboard
+* генерація потоків даних
+* обробка подій у реальному часі
+* кореляція між потоками даних
+* відображення complex events

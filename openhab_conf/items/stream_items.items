@@ -1,0 +1,11 @@
+// ===== STREAM METRICS =====
+
+Number TempStream "TempStream [%.1f °C]"
+Number HumStream "HumStream [%.1f %%]"
+Number LightStream "LightStream [%d lx]"
+
+// ===== COMPLEX EVENTS =====
+
+String HotHumidAlert "HotHumidAlert [%s]"
+String DarkRoomEvent "DarkRoomEvent [%s]"
+String ComfortState "ComfortState [%s]"

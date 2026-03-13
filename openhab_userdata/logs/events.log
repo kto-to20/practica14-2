@@ -1,0 +1,595 @@
+2026-03-13 04:17:46.376 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from UNINITIALIZED (HANDLER_MISSING_ERROR): Handler factory not found to UNINITIALIZED (NOT_YET_READY)
+2026-03-13 04:17:46.413 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from UNINITIALIZED to INITIALIZING
+2026-03-13 04:17:46.438 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from INITIALIZING to OFFLINE
+2026-03-13 04:17:46.461 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'modbus:tcp:45d8857d63' changed from UNINITIALIZED (HANDLER_MISSING_ERROR): Handler factory not found to UNINITIALIZED (NOT_YET_READY)
+2026-03-13 04:17:46.568 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'openweathermap:weather-api:f445c7180a' changed from UNINITIALIZED (HANDLER_MISSING_ERROR): Handler factory not found to UNINITIALIZED (NOT_YET_READY)
+2026-03-13 04:17:46.570 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'openweathermap:weather-and-forecast:f445c7180a:d9139c1860' changed from UNINITIALIZED (HANDLER_MISSING_ERROR): Handler factory not found to UNINITIALIZED (NOT_YET_READY)
+2026-03-13 04:17:46.639 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from UNINITIALIZED (NOT_YET_READY) to INITIALIZING
+2026-03-13 04:17:46.642 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from INITIALIZING to OFFLINE
+2026-03-13 04:17:46.869 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'openweathermap:weather-api:f445c7180a' changed from UNINITIALIZED (NOT_YET_READY) to INITIALIZING
+2026-03-13 04:17:46.873 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'openweathermap:weather-api:f445c7180a' changed from INITIALIZING to UNKNOWN
+2026-03-13 04:17:46.882 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): Timeout
+2026-03-13 04:17:46.883 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE (COMMUNICATION_ERROR): Timeout to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:17:46.884 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): Timeout
+2026-03-13 04:17:46.889 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE (COMMUNICATION_ERROR): Timeout to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:17:46.893 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'openweathermap:weather-and-forecast:f445c7180a:d9139c1860' changed from UNINITIALIZED (NOT_YET_READY) to INITIALIZING
+2026-03-13 04:17:46.895 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'openweathermap:weather-and-forecast:f445c7180a:d9139c1860' changed from INITIALIZING to UNKNOWN
+2026-03-13 04:17:46.904 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:02c6d49888:0ae0f3310b' changed from UNINITIALIZED (HANDLER_MISSING_ERROR): Handler factory not found to UNINITIALIZED (NOT_YET_READY)
+2026-03-13 04:17:46.916 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:mosquitto:temperature' changed from UNINITIALIZED to INITIALIZING
+2026-03-13 04:17:46.923 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'modbus:tcp:45d8857d63' changed from UNINITIALIZED (NOT_YET_READY) to INITIALIZING
+2026-03-13 04:17:46.924 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:mosquitto:temperature' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE)
+2026-03-13 04:17:46.925 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:mosquitto:humidity' changed from UNINITIALIZED to INITIALIZING
+2026-03-13 04:17:46.927 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'modbus:tcp:45d8857d63' changed from INITIALIZING to ONLINE
+2026-03-13 04:17:46.928 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:mosquitto:humidity' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE)
+2026-03-13 04:17:46.929 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:mosquitto:light' changed from UNINITIALIZED to INITIALIZING
+2026-03-13 04:17:46.930 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:mosquitto:light' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE)
+2026-03-13 04:17:48.930 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:02c6d49888:0ae0f3310b' changed from UNINITIALIZED (NOT_YET_READY) to INITIALIZING
+2026-03-13 04:17:48.932 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:topic:02c6d49888:0ae0f3310b' changed from INITIALIZING to OFFLINE (BRIDGE_OFFLINE)
+2026-03-13 04:17:50.654 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from NULL to 64.1883683906156
+2026-03-13 04:17:50.718 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from NULL to 64.1883683906156
+2026-03-13 04:17:56.885 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:17:56.886 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:17:56.892 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:17:56.893 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:18:00.638 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from NULL to 275.0796964651473
+2026-03-13 04:18:00.639 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from NULL to 23.573512437675422
+2026-03-13 04:18:00.640 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 23.573512437675422 to 21.587124068255108
+2026-03-13 04:18:00.640 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 275.0796964651473 to 65.74314085246786
+2026-03-13 04:18:00.641 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 64.1883683906156 to 62.61927565839238
+2026-03-13 04:18:00.642 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:18:00.642 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:18:00.643 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:18:00.644 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:18:00.645 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from NULL to 21.587124068255108
+2026-03-13 04:18:00.646 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MaxTemperature' changed from NULL to 21.587124068255108
+2026-03-13 04:18:00.647 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MinTemperature' changed from NULL to 21.587124068255108
+2026-03-13 04:18:00.647 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 64.1883683906156 to 63.40382202
+2026-03-13 04:18:00.648 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from NULL to ON
+2026-03-13 04:18:00.648 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from NULL to OFF
+2026-03-13 04:18:02.191 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'openweathermap:weather-and-forecast:f445c7180a:d9139c1860' changed from UNKNOWN to ONLINE
+2026-03-13 04:18:02.195 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'openweathermap:weather-api:f445c7180a' changed from UNKNOWN to ONLINE
+2026-03-13 04:18:02.195 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 62.61927565839238 to 92
+2026-03-13 04:18:02.196 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 63.40382202 to 77.70191101
+2026-03-13 04:18:20.970 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 65.74314085246786 to 148.66380034180952
+2026-03-13 04:18:20.984 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:18:20.985 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:18:20.986 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 21.587124068255108 to 25.869937823828636
+2026-03-13 04:18:21.031 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:18:21.032 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from OFF to ON
+2026-03-13 04:18:21.033 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 21.587124068255108 to 23.72853095
+2026-03-13 04:18:21.034 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MaxTemperature' changed from 21.587124068255108 to 25.869937823828636
+2026-03-13 04:18:21.035 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from NULL to UP
+2026-03-13 04:18:25.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 92 to 72.265655641926
+2026-03-13 04:18:25.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 77.70191101 to 74.98378333
+2026-03-13 04:18:30.943 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 25.869937823828636 to 25.017181701467514
+2026-03-13 04:18:30.944 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:18:30.945 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 23.72853095 to 24.37285633
+2026-03-13 04:18:30.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 148.66380034180952 to 225.99871822582952
+2026-03-13 04:18:30.974 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:18:40.943 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 225.99871822582952 to 43.11646782027001
+2026-03-13 04:18:40.944 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:18:40.946 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:18:40.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 25.017181701467514 to 27.69732062591428
+2026-03-13 04:18:40.975 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:18:40.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 24.37285633 to 26.03508848
+2026-03-13 04:18:40.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MaxTemperature' changed from 25.869937823828636 to 27.69732062591428
+2026-03-13 04:18:50.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 72.265655641926 to 45.55701857363368
+2026-03-13 04:18:50.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 74.98378333 to 60.27040095
+2026-03-13 04:18:56.893 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:18:56.895 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:18:56.898 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:18:56.902 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:19:00.942 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 27.69732062591428 to 21.172620227964423
+2026-03-13 04:19:00.947 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:19:00.947 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 43.11646782027001 to 180.24501836675157
+2026-03-13 04:19:00.948 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from ON to OFF
+2026-03-13 04:19:00.949 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 26.03508848 to 23.60385435
+2026-03-13 04:19:00.949 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:19:00.950 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MinTemperature' changed from 21.587124068255108 to 21.172620227964423
+2026-03-13 04:19:00.950 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:19:00.950 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:19:00.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 21.172620227964423 to 20.795769721735375
+2026-03-13 04:19:00.974 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 45.55701857363368 to 75.4483901121499
+2026-03-13 04:19:00.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 180.24501836675157 to 243.335214627563
+2026-03-13 04:19:00.976 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:19:00.977 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 23.60385435 to 22.19981204
+2026-03-13 04:19:00.978 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:19:00.979 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 60.27040095 to 67.85939553
+2026-03-13 04:19:00.979 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MinTemperature' changed from 21.172620227964423 to 20.795769721735375
+2026-03-13 04:19:20.943 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 243.335214627563 to 164.6089347066517
+2026-03-13 04:19:20.944 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:19:20.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 20.795769721735375 to 24.197039465001865
+2026-03-13 04:19:20.977 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:19:20.979 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 22.19981204 to 23.19842575
+2026-03-13 04:19:20.979 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:19:25.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 75.4483901121499 to 52.06081726313066
+2026-03-13 04:19:25.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 67.85939553 to 59.96010640
+2026-03-13 04:19:30.942 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 24.197039465001865 to 20.762028387551865
+2026-03-13 04:19:30.945 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:19:30.946 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 23.19842575 to 21.98022707
+2026-03-13 04:19:30.947 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MinTemperature' changed from 20.795769721735375 to 20.762028387551865
+2026-03-13 04:19:30.947 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:19:30.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 164.6089347066517 to 68.30533337195838
+2026-03-13 04:19:30.974 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:19:30.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:19:40.943 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 68.30533337195838 to 217.59872852333933
+2026-03-13 04:19:40.944 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:19:40.945 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:19:40.972 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 20.762028387551865 to 21.182523860547196
+2026-03-13 04:19:40.975 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:19:40.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 21.98022707 to 21.58137547
+2026-03-13 04:19:50.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 52.06081726313066 to 77.67850558088261
+2026-03-13 04:19:50.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 59.96010640 to 68.81930599
+2026-03-13 04:19:56.898 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:19:56.901 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:19:56.906 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:19:56.910 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:20:00.942 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 21.182523860547196 to 28.446871833803566
+2026-03-13 04:20:00.945 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 217.59872852333933 to 243.71965916735843
+2026-03-13 04:20:00.946 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:20:00.947 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:20:00.948 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from OFF to ON
+2026-03-13 04:20:00.949 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 21.58137547 to 25.01412365
+2026-03-13 04:20:00.950 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MaxTemperature' changed from 27.69732062591428 to 28.446871833803566
+2026-03-13 04:20:00.951 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:20:00.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 243.71965916735843 to 87.44102348637351
+2026-03-13 04:20:00.974 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 77.67850558088261 to 60.59177529099101
+2026-03-13 04:20:00.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 28.446871833803566 to 29.101586008195234
+2026-03-13 04:20:00.976 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:20:00.977 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:20:00.978 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 68.81930599 to 64.70554064
+2026-03-13 04:20:00.979 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:20:00.980 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 25.01412365 to 27.05785483
+2026-03-13 04:20:00.981 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MaxTemperature' changed from 28.446871833803566 to 29.101586008195234
+2026-03-13 04:20:02.481 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 60.59177529099101 to 93
+2026-03-13 04:20:02.484 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 64.70554064 to 78.85277032
+2026-03-13 04:20:20.943 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 87.44102348637351 to 153.73760103854084
+2026-03-13 04:20:20.944 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:20:20.945 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:20:20.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 29.101586008195234 to 27.873191961788
+2026-03-13 04:20:20.974 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:20:20.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 27.05785483 to 27.46552340
+2026-03-13 04:20:25.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 93 to 70.15440068027267
+2026-03-13 04:20:25.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 78.85277032 to 74.50358550
+2026-03-13 04:20:30.942 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 27.873191961788 to 28.41492241603551
+2026-03-13 04:20:30.944 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:20:30.945 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 27.46552340 to 27.94022291
+2026-03-13 04:20:30.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 153.73760103854084 to 151.01257462254566
+2026-03-13 04:20:30.975 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:20:40.944 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 151.01257462254566 to 14.748687951265582
+2026-03-13 04:20:40.946 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:20:40.946 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:20:40.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 28.41492241603551 to 27.92907464174089
+2026-03-13 04:20:40.975 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:20:40.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 27.94022291 to 27.93464878
+2026-03-13 04:20:40.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:20:50.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 70.15440068027267 to 57.53560713399433
+2026-03-13 04:20:50.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 74.50358550 to 66.01959632
+2026-03-13 04:20:56.903 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:20:56.904 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:20:56.912 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:20:56.914 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:21:00.941 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 14.748687951265582 to 34.62259691841643
+2026-03-13 04:21:00.945 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 27.92907464174089 to 29.210075881910043
+2026-03-13 04:21:00.946 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:21:00.947 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:21:00.948 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 27.93464878 to 28.57236233
+2026-03-13 04:21:00.948 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MaxTemperature' changed from 29.101586008195234 to 29.210075881910043
+2026-03-13 04:21:00.949 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:21:00.972 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 57.53560713399433 to 56.443944330140184
+2026-03-13 04:21:00.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 29.210075881910043 to 20.403433216118835
+2026-03-13 04:21:00.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 34.62259691841643 to 11.14177256360287
+2026-03-13 04:21:00.977 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:21:00.978 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 66.01959632 to 61.23177033
+2026-03-13 04:21:00.979 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:21:00.979 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 28.57236233 to 24.48789777
+2026-03-13 04:21:00.980 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from ON to OFF
+2026-03-13 04:21:00.980 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MinTemperature' changed from 20.762028387551865 to 20.403433216118835
+2026-03-13 04:21:00.982 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:21:20.943 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 11.14177256360287 to 197.3729436968731
+2026-03-13 04:21:20.945 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:21:20.946 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:21:20.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 20.403433216118835 to 28.996609747103413
+2026-03-13 04:21:20.975 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:21:20.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 24.48789777 to 26.74225376
+2026-03-13 04:21:20.977 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from OFF to ON
+2026-03-13 04:21:20.978 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:21:25.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 56.443944330140184 to 53.95922029256801
+2026-03-13 04:21:25.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 61.23177033 to 57.59549531
+2026-03-13 04:21:30.942 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 28.996609747103413 to 26.085252869985197
+2026-03-13 04:21:30.945 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:21:30.946 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 26.74225376 to 26.41375331
+2026-03-13 04:21:30.947 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:21:30.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 197.3729436968731 to 256.821202619055
+2026-03-13 04:21:30.974 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:21:40.942 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 256.821202619055 to 119.99101678985349
+2026-03-13 04:21:40.945 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:21:40.972 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 26.085252869985197 to 21.011672035905992
+2026-03-13 04:21:40.975 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:21:40.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 26.41375331 to 23.71271267
+2026-03-13 04:21:40.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from ON to OFF
+2026-03-13 04:21:50.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 53.95922029256801 to 52.38641162498516
+2026-03-13 04:21:50.974 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 57.59549531 to 54.99095347
+2026-03-13 04:21:56.909 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:21:56.911 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:21:56.915 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:21:56.916 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:22:00.941 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 21.011672035905992 to 23.963799182803047
+2026-03-13 04:22:00.946 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:22:00.948 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 119.99101678985349 to 92.62876040585796
+2026-03-13 04:22:00.949 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 23.71271267 to 23.83825593
+2026-03-13 04:22:00.950 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:22:00.951 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:22:00.952 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:22:00.972 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 52.38641162498516 to 55.9562996876154
+2026-03-13 04:22:00.974 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 23.963799182803047 to 25.708318199879184
+2026-03-13 04:22:00.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 92.62876040585796 to 289.5750982642007
+2026-03-13 04:22:00.976 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:22:00.976 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:22:00.977 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 54.99095347 to 55.47362658
+2026-03-13 04:22:00.978 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from OFF to ON
+2026-03-13 04:22:00.979 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 23.83825593 to 24.77328706
+2026-03-13 04:22:00.980 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:22:02.639 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 55.9562996876154 to 93
+2026-03-13 04:22:02.641 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 55.47362658 to 74.23681329
+2026-03-13 04:22:20.942 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 289.5750982642007 to 95.6466433410373
+2026-03-13 04:22:20.944 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:22:20.944 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:22:20.972 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 25.708318199879184 to 20.239536426118775
+2026-03-13 04:22:20.976 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:22:20.977 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 24.77328706 to 22.50641174
+2026-03-13 04:22:20.978 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MinTemperature' changed from 20.403433216118835 to 20.239536426118775
+2026-03-13 04:22:20.979 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:22:20.980 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from ON to OFF
+2026-03-13 04:22:25.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 93 to 54.47726277201626
+2026-03-13 04:22:25.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 74.23681329 to 64.35703803
+2026-03-13 04:22:30.942 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 20.239536426118775 to 20.35480403159807
+2026-03-13 04:22:30.943 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:22:30.944 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 22.50641174 to 21.43060789
+2026-03-13 04:22:30.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 95.6466433410373 to 277.0922465635788
+2026-03-13 04:22:30.974 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:22:30.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:22:40.943 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 277.0922465635788 to 128.69422727858583
+2026-03-13 04:22:40.943 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:22:40.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 20.35480403159807 to 24.870426248444517
+2026-03-13 04:22:40.975 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:22:40.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 21.43060789 to 23.15051707
+2026-03-13 04:22:40.977 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:22:50.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 54.47726277201626 to 56.43450445368579
+2026-03-13 04:22:50.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 64.35703803 to 60.39577124
+2026-03-13 04:22:56.913 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:22:56.915 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:22:56.921 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:22:56.924 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:23:00.943 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 24.870426248444517 to 21.007816535795598
+2026-03-13 04:23:00.946 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 128.69422727858583 to 114.73180018913811
+2026-03-13 04:23:00.947 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:23:00.949 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 23.15051707 to 22.07916680
+2026-03-13 04:23:00.950 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:23:00.951 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:23:00.972 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 114.73180018913811 to 154.68497688623285
+2026-03-13 04:23:00.975 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 21.007816535795598 to 23.0877005621223
+2026-03-13 04:23:00.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 56.43450445368579 to 75.12902056051533
+2026-03-13 04:23:00.977 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:23:00.978 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:23:00.979 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 22.07916680 to 22.58343368
+2026-03-13 04:23:00.980 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:23:00.981 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 60.39577124 to 67.76239590
+2026-03-13 04:23:20.942 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 154.68497688623285 to 256.7068353046165
+2026-03-13 04:23:20.945 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:23:20.972 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 23.0877005621223 to 21.09107680188212
+2026-03-13 04:23:20.974 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:23:20.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 22.58343368 to 21.83725524
+2026-03-13 04:23:20.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:23:25.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 75.12902056051533 to 47.85665298113684
+2026-03-13 04:23:25.979 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 67.76239590 to 57.80952444
+2026-03-13 04:23:30.941 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 21.09107680188212 to 23.608145370893293
+2026-03-13 04:23:30.945 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:23:30.946 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 21.83725524 to 22.72270031
+2026-03-13 04:23:30.946 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:23:30.973 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 256.7068353046165 to 76.44939719781414
+2026-03-13 04:23:30.975 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:23:30.976 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:23:40.929 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 23.608145370893293 to 21.471645170978963
+2026-03-13 04:23:40.930 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightStream' changed from NULL to 172.52735940202078
+2026-03-13 04:23:40.931 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 76.44939719781414 to 132.29658761306817
+2026-03-13 04:23:40.932 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 132.29658761306817 to 172.52735940202078
+2026-03-13 04:23:40.985 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:23:40.987 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:23:40.988 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:23:40.989 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'DarkRoomEvent' changed from NULL to BRIGHT
+2026-03-13 04:23:40.989 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 22.72270031 to 22.09717274
+2026-03-13 04:23:40.990 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:23:40.990 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:23:45.904 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from NULL to 31.00810290145703
+2026-03-13 04:23:45.907 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 21.471645170978963 to 31.00810290145703
+2026-03-13 04:23:45.908 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:23:45.909 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 22.09717274 to 26.55263782
+2026-03-13 04:23:45.909 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MaxTemperature' changed from 29.210075881910043 to 31.00810290145703
+2026-03-13 04:23:45.912 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:23:45.913 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from OFF to ON
+2026-03-13 04:23:50.897 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 47.85665298113684 to 48.32925642975769
+2026-03-13 04:23:50.899 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 57.80952444 to 53.06939043
+2026-03-13 04:23:54.905 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from NULL to 69.36683673760214
+2026-03-13 04:23:54.907 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 48.32925642975769 to 69.36683673760214
+2026-03-13 04:23:54.908 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HotHumidAlert' changed from NULL to NORMAL
+2026-03-13 04:23:54.909 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ComfortState' changed from NULL to UNCOMFORT
+2026-03-13 04:23:54.909 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 53.06939043 to 61.21811358
+2026-03-13 04:23:56.918 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:23:56.919 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:23:56.926 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:23:56.927 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:24:00.872 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 31.00810290145703 to 25.594868638569604
+2026-03-13 04:24:00.873 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:24:00.874 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 172.52735940202078 to 13.299587182277728
+2026-03-13 04:24:00.875 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 26.55263782 to 26.07375323
+2026-03-13 04:24:00.876 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:24:00.877 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:24:00.878 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:24:00.897 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 69.36683673760214 to 54.91853481675318
+2026-03-13 04:24:00.898 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 25.594868638569604 to 29.56962757980307
+2026-03-13 04:24:00.900 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:24:00.901 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 13.299587182277728 to 215.06158733084763
+2026-03-13 04:24:00.902 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 61.21811358 to 58.06832420
+2026-03-13 04:24:00.902 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 26.07375323 to 27.82169040
+2026-03-13 04:24:00.903 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:24:00.903 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:24:00.904 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:24:00.905 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 31.00810290145703 to 27.98470482317036
+2026-03-13 04:24:00.906 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 29.56962757980307 to 27.98470482317036
+2026-03-13 04:24:00.907 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightStream' changed from 172.52735940202078 to 51.42290390240167
+2026-03-13 04:24:00.908 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from 69.36683673760214 to 57.136632518751206
+2026-03-13 04:24:00.908 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 215.06158733084763 to 51.42290390240167
+2026-03-13 04:24:00.909 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 54.91853481675318 to 57.136632518751206
+2026-03-13 04:24:00.909 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:24:00.910 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:24:00.910 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 27.82169040 to 27.90319761
+2026-03-13 04:24:00.911 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'DarkRoomEvent' changed from BRIGHT to DARK
+2026-03-13 04:24:00.912 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:24:00.912 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 58.06832420 to 57.60247836
+2026-03-13 04:24:02.929 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 57.136632518751206 to 93
+2026-03-13 04:24:02.930 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 57.60247836 to 75.30123918
+2026-03-13 04:24:15.904 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 27.98470482317036 to 31.530528428769834
+2026-03-13 04:24:15.907 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 27.98470482317036 to 31.530528428769834
+2026-03-13 04:24:15.908 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:24:15.909 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 27.90319761 to 29.71686302
+2026-03-13 04:24:15.910 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MaxTemperature' changed from 31.00810290145703 to 31.530528428769834
+2026-03-13 04:24:20.624 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 31.530528428769834 to 29.58761586901327
+2026-03-13 04:24:20.625 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 31.530528428769834 to 29.58761586901327
+2026-03-13 04:24:20.626 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:24:20.627 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 29.71686302 to 29.65223944
+2026-03-13 04:24:20.628 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:24:20.873 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 51.42290390240167 to 102.30903197485881
+2026-03-13 04:24:20.875 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:24:20.875 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:24:20.897 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 29.58761586901327 to 29.769923176568803
+2026-03-13 04:24:20.900 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:24:20.901 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 29.65223944 to 29.71108131
+2026-03-13 04:24:20.902 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:24:24.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 93 to 78.30130933547952
+2026-03-13 04:24:24.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from 57.136632518751206 to 78.30130933547952
+2026-03-13 04:24:24.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HotHumidAlert' changed from NORMAL to ALERT
+2026-03-13 04:24:24.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 75.30123918 to 76.80127426
+2026-03-13 04:24:25.898 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 78.30130933547952 to 45.21150236780976
+2026-03-13 04:24:25.901 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 76.80127426 to 61.00638831
+2026-03-13 04:24:28.603 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 102.30903197485881 to 14.413257843529493
+2026-03-13 04:24:28.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightStream' changed from 51.42290390240167 to 14.413257843529493
+2026-03-13 04:24:28.606 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:24:28.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:24:30.601 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 29.769923176568803 to 31.720563887672963
+2026-03-13 04:24:30.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 29.58761586901327 to 31.720563887672963
+2026-03-13 04:24:30.603 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:24:30.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 29.71108131 to 30.71582260
+2026-03-13 04:24:30.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'MaxTemperature' changed from 31.530528428769834 to 31.720563887672963
+2026-03-13 04:24:30.873 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 31.720563887672963 to 21.43399336900122
+2026-03-13 04:24:30.874 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:24:30.875 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 30.71582260 to 26.07490798
+2026-03-13 04:24:30.876 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from ON to OFF
+2026-03-13 04:24:30.877 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:24:30.898 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 14.413257843529493 to 139.7474441397569
+2026-03-13 04:24:30.900 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:24:30.901 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:24:36.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 45.21150236780976 to 62.33878351176487
+2026-03-13 04:24:36.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from 78.30130933547952 to 62.33878351176487
+2026-03-13 04:24:36.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 61.00638831 to 61.67258591
+2026-03-13 04:24:36.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HotHumidAlert' changed from ALERT to NORMAL
+2026-03-13 04:24:40.601 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 21.43399336900122 to 22.452655511667604
+2026-03-13 04:24:40.603 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 31.720563887672963 to 22.452655511667604
+2026-03-13 04:24:40.604 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:24:40.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 26.07490798 to 24.26378175
+2026-03-13 04:24:40.873 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 139.7474441397569 to 16.957303408126766
+2026-03-13 04:24:40.874 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:24:40.875 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:24:40.897 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 22.452655511667604 to 21.197099035990604
+2026-03-13 04:24:40.900 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:24:40.901 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 24.26378175 to 22.73044039
+2026-03-13 04:24:42.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 16.957303408126766 to 57.97688369634485
+2026-03-13 04:24:42.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightStream' changed from 14.413257843529493 to 57.97688369634485
+2026-03-13 04:24:42.605 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:24:48.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 62.33878351176487 to 44.103010456949505
+2026-03-13 04:24:48.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from 62.33878351176487 to 44.103010456949505
+2026-03-13 04:24:48.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 61.67258591 to 52.88779818
+2026-03-13 04:24:48.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ComfortState' changed from UNCOMFORT to COMFORT
+2026-03-13 04:24:50.601 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 21.197099035990604 to 23.985629143931707
+2026-03-13 04:24:50.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 22.452655511667604 to 23.985629143931707
+2026-03-13 04:24:50.603 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:24:50.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 22.73044039 to 23.35803477
+2026-03-13 04:24:50.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:24:50.897 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 44.103010456949505 to 51.17375144550867
+2026-03-13 04:24:50.900 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 52.88779818 to 52.03077481
+2026-03-13 04:24:56.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 57.97688369634485 to 219.56638969313792
+2026-03-13 04:24:56.603 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightStream' changed from 57.97688369634485 to 219.56638969313792
+2026-03-13 04:24:56.604 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:24:56.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:24:56.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'DarkRoomEvent' changed from DARK to BRIGHT
+2026-03-13 04:24:56.921 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:24:56.923 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:24:56.929 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:24:56.930 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:25:00.601 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 219.56638969313792 to 124.84128861932216
+2026-03-13 04:25:00.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 23.985629143931707 to 27.60860566663612
+2026-03-13 04:25:00.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 51.17375144550867 to 77.2323291854933
+2026-03-13 04:25:00.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 23.985629143931707 to 27.60860566663612
+2026-03-13 04:25:00.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightStream' changed from 219.56638969313792 to 124.84128861932216
+2026-03-13 04:25:00.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from 44.103010456949505 to 77.2323291854933
+2026-03-13 04:25:00.607 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:25:00.607 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:25:00.608 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from OFF to ON
+2026-03-13 04:25:00.609 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 52.03077481 to 64.63155200
+2026-03-13 04:25:00.609 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ComfortState' changed from COMFORT to UNCOMFORT
+2026-03-13 04:25:00.610 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 23.35803477 to 25.48332022
+2026-03-13 04:25:00.610 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HotHumidAlert' changed from NORMAL to ALERT
+2026-03-13 04:25:00.872 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 27.60860566663612 to 26.20345102142382
+2026-03-13 04:25:00.876 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 124.84128861932216 to 107.07577995521078
+2026-03-13 04:25:00.877 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:25:00.878 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:25:00.878 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 25.48332022 to 25.84338562
+2026-03-13 04:25:00.897 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 77.2323291854933 to 77.57276613733544
+2026-03-13 04:25:00.900 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 26.20345102142382 to 26.838357973782628
+2026-03-13 04:25:00.901 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 107.07577995521078 to 48.84292497367625
+2026-03-13 04:25:00.902 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:25:00.903 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:25:00.903 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 64.63155200 to 71.10215907
+2026-03-13 04:25:00.904 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 25.84338562 to 26.34087180
+2026-03-13 04:25:00.914 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:25:10.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 26.838357973782628 to 26.762958403546577
+2026-03-13 04:25:10.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 27.60860566663612 to 26.762958403546577
+2026-03-13 04:25:10.605 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:25:10.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 26.34087180 to 26.55191510
+2026-03-13 04:25:10.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HotHumidAlert' changed from ALERT to NORMAL
+2026-03-13 04:25:12.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 77.57276613733544 to 63.62460250353966
+2026-03-13 04:25:12.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from 77.2323291854933 to 63.62460250353966
+2026-03-13 04:25:12.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 71.10215907 to 67.36338079
+2026-03-13 04:25:14.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 48.84292497367625 to 55.36037949687746
+2026-03-13 04:25:14.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightStream' changed from 124.84128861932216 to 55.36037949687746
+2026-03-13 04:25:14.604 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:25:14.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'DarkRoomEvent' changed from BRIGHT to DARK
+2026-03-13 04:25:20.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 26.762958403546577 to 29.81756140908265
+2026-03-13 04:25:20.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 26.762958403546577 to 29.81756140908265
+2026-03-13 04:25:20.607 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:25:20.608 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 26.55191510 to 28.18473825
+2026-03-13 04:25:20.874 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 55.36037949687746 to 223.18435072224773
+2026-03-13 04:25:20.875 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:25:20.875 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:25:20.897 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 29.81756140908265 to 27.750547374529816
+2026-03-13 04:25:20.898 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:25:20.899 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 28.18473825 to 27.96764281
+2026-03-13 04:25:20.899 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:25:24.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 63.62460250353966 to 44.85393225496586
+2026-03-13 04:25:24.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from 63.62460250353966 to 44.85393225496586
+2026-03-13 04:25:24.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 67.36338079 to 56.10865652
+2026-03-13 04:25:25.897 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 44.85393225496586 to 61.81013436294939
+2026-03-13 04:25:25.900 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 56.10865652 to 58.95939544
+2026-03-13 04:25:28.603 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 223.18435072224773 to 44.759458409902265
+2026-03-13 04:25:28.610 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightStream' changed from 55.36037949687746 to 44.759458409902265
+2026-03-13 04:25:28.611 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:25:28.612 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:25:30.603 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 27.750547374529816 to 25.19760623342249
+2026-03-13 04:25:30.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 29.81756140908265 to 25.19760623342249
+2026-03-13 04:25:30.605 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:25:30.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 27.96764281 to 26.58262452
+2026-03-13 04:25:30.873 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 25.19760623342249 to 28.615565737560136
+2026-03-13 04:25:30.874 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:25:30.876 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 26.58262452 to 27.59909513
+2026-03-13 04:25:30.877 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:25:30.898 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 44.759458409902265 to 197.2584557830482
+2026-03-13 04:25:30.899 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:25:30.900 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:25:36.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 61.81013436294939 to 61.09974941335449
+2026-03-13 04:25:36.603 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from 44.85393225496586 to 61.09974941335449
+2026-03-13 04:25:36.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 58.95939544 to 60.02957243
+2026-03-13 04:25:40.601 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 28.615565737560136 to 24.466677093840797
+2026-03-13 04:25:40.603 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 25.19760623342249 to 24.466677093840797
+2026-03-13 04:25:40.604 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:25:40.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 27.59909513 to 26.03288611
+2026-03-13 04:25:40.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:25:40.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from ON to OFF
+2026-03-13 04:25:40.874 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 197.2584557830482 to 253.560130769923
+2026-03-13 04:25:40.877 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:25:40.898 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 24.466677093840797 to 24.221231914964896
+2026-03-13 04:25:40.900 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:25:40.901 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 26.03288611 to 25.12705901
+2026-03-13 04:25:42.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 253.560130769923 to 90.66406999017708
+2026-03-13 04:25:42.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightStream' changed from 44.759458409902265 to 90.66406999017708
+2026-03-13 04:25:42.605 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:25:42.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'DarkRoomEvent' changed from DARK to BRIGHT
+2026-03-13 04:25:42.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:25:48.603 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 61.09974941335449 to 54.10801452533516
+2026-03-13 04:25:48.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from 61.09974941335449 to 54.10801452533516
+2026-03-13 04:25:48.607 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 60.02957243 to 57.06879348
+2026-03-13 04:25:48.608 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ComfortState' changed from UNCOMFORT to COMFORT
+2026-03-13 04:25:50.601 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 24.221231914964896 to 22.914766241289122
+2026-03-13 04:25:50.603 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 24.466677093840797 to 22.914766241289122
+2026-03-13 04:25:50.604 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:25:50.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 25.12705901 to 24.02091263
+2026-03-13 04:25:50.897 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 54.10801452533516 to 79.8682967151045
+2026-03-13 04:25:50.899 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 57.06879348 to 68.46854510
+2026-03-13 04:25:56.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 90.66406999017708 to 178.45793916168952
+2026-03-13 04:25:56.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightStream' changed from 90.66406999017708 to 178.45793916168952
+2026-03-13 04:25:56.606 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:25:56.607 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:25:56.926 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:25:56.927 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:02c6d49888' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:25:56.934 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883 to OFFLINE
+2026-03-13 04:25:56.936 [INFO ] [ab.event.ThingStatusInfoChangedEvent] - Thing 'mqtt:broker:mosquitto' changed from OFFLINE to OFFLINE (COMMUNICATION_ERROR): io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:1883
+2026-03-13 04:26:00.601 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 79.8682967151045 to 71.15651151186378
+2026-03-13 04:26:00.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from 54.10801452533516 to 71.15651151186378
+2026-03-13 04:26:00.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 178.45793916168952 to 299.3335442220714
+2026-03-13 04:26:00.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightStream' changed from 178.45793916168952 to 299.3335442220714
+2026-03-13 04:26:00.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 22.914766241289122 to 25.056982876255194
+2026-03-13 04:26:00.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 22.914766241289122 to 25.056982876255194
+2026-03-13 04:26:00.606 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:26:00.607 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:26:00.608 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 68.46854510 to 69.81252831
+2026-03-13 04:26:00.608 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ComfortState' changed from COMFORT to UNCOMFORT
+2026-03-13 04:26:00.609 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 24.02091263 to 24.53894775
+2026-03-13 04:26:00.609 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:26:00.609 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from OFF to ON
+2026-03-13 04:26:00.872 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 299.3335442220714 to 208.1320953823977
+2026-03-13 04:26:00.875 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 25.056982876255194 to 22.10203529606664
+2026-03-13 04:26:00.876 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:26:00.877 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:26:00.877 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 24.53894775 to 23.32049152
+2026-03-13 04:26:00.878 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:26:00.878 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from ON to OFF
+2026-03-13 04:26:00.898 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 22.10203529606664 to 23.295273727855058
+2026-03-13 04:26:00.900 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 71.15651151186378 to 74.53063662787915
+2026-03-13 04:26:00.901 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 208.1320953823977 to 1.5568023897945427
+2026-03-13 04:26:00.901 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:26:00.902 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command ON
+2026-03-13 04:26:00.903 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 23.32049152 to 23.30788262
+2026-03-13 04:26:00.904 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 69.81252831 to 72.17158247
+2026-03-13 04:26:00.905 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from OFF to ON
+2026-03-13 04:26:03.217 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 74.53063662787915 to 93
+2026-03-13 04:26:03.219 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 72.17158247 to 82.58579124
+2026-03-13 04:26:10.601 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 23.295273727855058 to 31.645501822017078
+2026-03-13 04:26:10.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 25.056982876255194 to 31.645501822017078
+2026-03-13 04:26:10.605 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command ON
+2026-03-13 04:26:10.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 23.30788262 to 27.47669222
+2026-03-13 04:26:10.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from DOWN to UP
+2026-03-13 04:26:10.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from OFF to ON
+2026-03-13 04:26:12.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 93 to 54.744244213922535
+2026-03-13 04:26:12.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from 71.15651151186378 to 54.744244213922535
+2026-03-13 04:26:12.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 82.58579124 to 68.66501773
+2026-03-13 04:26:14.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 1.5568023897945427 to 269.54436714587877
+2026-03-13 04:26:14.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightStream' changed from 299.3335442220714 to 269.54436714587877
+2026-03-13 04:26:14.604 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:26:14.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Light' changed from ON to OFF
+2026-03-13 04:26:20.601 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 31.645501822017078 to 22.694005684384333
+2026-03-13 04:26:20.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TempStream' changed from 31.645501822017078 to 22.694005684384333
+2026-03-13 04:26:20.603 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:26:20.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Zigbee_Fan' changed from ON to OFF
+2026-03-13 04:26:20.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 27.47669222 to 25.08534895
+2026-03-13 04:26:20.605 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ComfortState' changed from UNCOMFORT to COMFORT
+2026-03-13 04:26:20.606 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'TemperatureTrend' changed from UP to DOWN
+2026-03-13 04:26:20.873 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'LightLevel' changed from 269.54436714587877 to 293.330578555879
+2026-03-13 04:26:20.874 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Light' received command OFF
+2026-03-13 04:26:20.897 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Temperature' changed from 22.694005684384333 to 24.555746903979184
+2026-03-13 04:26:20.898 [INFO ] [openhab.event.ItemCommandEvent      ] - Item 'Zigbee_Fan' received command OFF
+2026-03-13 04:26:20.899 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgTemperature' changed from 25.08534895 to 24.82054793
+2026-03-13 04:26:24.602 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 54.744244213922535 to 75.24222726858031
+2026-03-13 04:26:24.603 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'HumStream' changed from 54.744244213922535 to 75.24222726858031
+2026-03-13 04:26:24.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 68.66501773 to 71.95362250
+2026-03-13 04:26:24.604 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'ComfortState' changed from COMFORT to UNCOMFORT
+2026-03-13 04:26:25.897 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'Humidity' changed from 75.24222726858031 to 56.554288574850986
+2026-03-13 04:26:25.899 [INFO ] [openhab.event.ItemStateChangedEvent ] - Item 'AvgHumidity' changed from 71.95362250 to 64.25395554
