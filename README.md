@@ -1,19 +1,13 @@
-# Semantic IoT System using OpenHAB
+# IoT Multi-Sensor Analytics System using OpenHAB
 
 ## Project Description
 
-This project demonstrates a **Semantic IoT system** implemented using the OpenHAB Semantic Model.
+This project demonstrates a **Time-Series IoT Analytics system** implemented using OpenHAB.
 
-The goal of this project is to demonstrate how IoT devices can be described using **semantic annotations and ontology concepts**.
-Semantic tags allow the system to understand the **role and meaning of devices**, not only their technical parameters.
+The system collects data from multiple virtual IoT sensors and performs **real-time analytics** using OpenHAB Rules.
+Sensor values are simulated to demonstrate how IoT data can be processed, analyzed, and visualized.
 
-Devices are categorized as:
-
-* Sensors (Temperature, Humidity, Light)
-* Actuators (Zigbee Light, Fan, Socket)
-* Locations (Home, LivingRoom)
-
-Using semantic annotations makes it possible to implement **ontology-based automation**.
+The main goal of this project is to implement **basic time-series analytics**, including statistical calculations and trend detection.
 
 ---
 
@@ -22,54 +16,44 @@ Using semantic annotations makes it possible to implement **ontology-based autom
 ```mermaid
 graph TD
 
-Home --> LivingRoom
-
-LivingRoom --> TemperatureSensor
-LivingRoom --> HumiditySensor
-LivingRoom --> LightSensor
-
-LivingRoom --> ZigbeeLight
-LivingRoom --> ZigbeeFan
-LivingRoom --> ZigbeeSocket
+Sensors --> DataCollection
+DataCollection --> AnalyticsRules
+AnalyticsRules --> CalculatedMetrics
+CalculatedMetrics --> Dashboard
 ```
 
 ---
 
-## Semantic Model
+## Sensors
 
-The project uses the **OpenHAB Semantic Model**, where devices are organized hierarchically.
+The system simulates several IoT sensors:
 
-Example structure:
+* Temperature sensor
+* Humidity sensor
+* Light sensor
 
-Home
-└ LivingRoom
-  ├ Temperature Sensor
-  ├ Humidity Sensor
-  ├ Light Sensor
-  ├ Zigbee Light
-  ├ Zigbee Fan
-  └ Zigbee Socket
-
-Each device has semantic tags that describe:
-
-* device type
-* device capability
-* location
-
-This allows the system to perform **semantic reasoning**.
+Sensor data is generated automatically using OpenHAB Rules to simulate real-world sensor behavior.
 
 ---
 
-## Ontology-Based Automation
+## Analytics Features
 
-Automation rules are based on the meaning of devices in the ontology.
+The system performs several analytical operations:
 
-Examples:
+### Statistical Calculations
 
-* If **temperature > 25°C → turn ON cooling device**
-* If **light level < 100 lx → turn ON lighting device**
+* Average temperature
+* Maximum temperature
+* Minimum temperature
+* Average humidity
 
-This demonstrates **semantic interoperability in IoT systems**.
+### Trend Detection
+
+The system determines the **temperature trend direction**:
+
+* UP – temperature increasing
+* DOWN – temperature decreasing
+* STABLE – no significant change
 
 ---
 
@@ -78,30 +62,28 @@ This demonstrates **semantic interoperability in IoT systems**.
 The project includes the following configuration files:
 
 items/
-iot_devices.items
-
-metadata/
-semantic.metadata
+analytics_items.items
 
 rules/
-bridge.rules
+sensor_simulation.rules
+analytics.rules
 
 sitemaps/
-iot_dashboard.sitemap
+analytics_dashboard.sitemap
 
 ---
 
 ## Dashboard
 
-The system dashboard displays:
+The dashboard visualizes:
 
-* sensor values
-* device status
-* manual device control
+* real-time sensor values
+* statistical metrics
+* trend detection results
 
 Dashboard URL:
 
-http://localhost:8080/basicui/app?sitemap=iot_dashboard
+http://localhost:8080/basicui/app?sitemap=analytics_dashboard
 
 ---
 
@@ -109,30 +91,24 @@ http://localhost:8080/basicui/app?sitemap=iot_dashboard
 
 The demonstration shows:
 
-* semantic device model
-* ontology structure
-* ontology-based automation
-* simulated sensor data
+* sensor data simulation
+* real-time analytics calculations
+* automatic trend detection
+* dashboard visualization
 
 ---
 
-# Семантична IoT система з використанням OpenHAB
+# Система аналітики IoT сенсорів з використанням OpenHAB
 
 ## Опис проєкту
 
-Цей проєкт демонструє **семантичну IoT систему**, реалізовану за допомогою Semantic Model у OpenHAB.
+Цей проєкт демонструє систему **аналітики IoT даних у часових рядах** на базі OpenHAB.
 
-Метою роботи є показати, як IoT пристрої можуть описуватись за допомогою **семантичних анотацій та онтології**.
+Система збирає дані з декількох віртуальних сенсорів та виконує **аналітичну обробку даних у реальному часі** за допомогою правил OpenHAB.
 
-Семантичні теги дозволяють системі розуміти **роль та призначення пристроїв**, а не лише їх технічні параметри.
+Значення сенсорів генеруються автоматично для демонстрації роботи системи збору та аналізу IoT даних.
 
-Пристрої поділяються на:
-
-* сенсори (температура, вологість, освітлення)
-* виконавчі пристрої (лампа, вентилятор, розетка)
-* локації (Home, LivingRoom)
-
-Завдяки цьому можлива **ontology-based automation**.
+Основна мета роботи — реалізація **базової аналітики часових рядів**.
 
 ---
 
@@ -141,86 +117,74 @@ The demonstration shows:
 ```mermaid
 graph TD
 
-Home --> LivingRoom
-
-LivingRoom --> TemperatureSensor
-LivingRoom --> HumiditySensor
-LivingRoom --> LightSensor
-
-LivingRoom --> ZigbeeLight
-LivingRoom --> ZigbeeFan
-LivingRoom --> ZigbeeSocket
+Sensors --> DataCollection
+DataCollection --> AnalyticsRules
+AnalyticsRules --> CalculatedMetrics
+CalculatedMetrics --> Dashboard
 ```
 
 ---
 
-## Семантична модель
+## Сенсори
 
-У проєкті використовується **Semantic Model OpenHAB**, де пристрої організовані ієрархічно.
+У системі використовуються віртуальні IoT сенсори:
 
-Приклад структури:
+* сенсор температури
+* сенсор вологості
+* сенсор освітлення
 
-Home
-└ LivingRoom
-  ├ Sensor Temperature
-  ├ Sensor Humidity
-  ├ Sensor Light
-  ├ Zigbee Light
-  ├ Zigbee Fan
-  └ Zigbee Socket
-
-Кожен пристрій має semantic tags, які описують:
-
-* тип пристрою
-* можливості пристрою
-* розташування
-
-Це дозволяє системі використовувати **semantic reasoning**.
+Дані генеруються автоматично за допомогою OpenHAB Rules.
 
 ---
 
-## Автоматизація на основі онтології
+## Аналітичні можливості
 
-Автоматизація базується на семантичному значенні пристроїв.
+Система виконує такі аналітичні обчислення.
 
-Приклади:
+### Статистичні показники
 
-* якщо **температура > 25°C → вмикається пристрій охолодження**
-* якщо **рівень освітлення < 100 lx → вмикається освітлення**
+* середня температура
+* максимальна температура
+* мінімальна температура
+* середня вологість
 
-Це демонструє **семантичну інтероперабельність IoT системи**.
+### Визначення тренду
+
+Система визначає напрямок зміни температури:
+
+* UP — температура зростає
+* DOWN — температура знижується
+* STABLE — без значних змін
 
 ---
 
 ## Конфігурація OpenHAB
 
-У проєкті використовуються такі файли:
+Проєкт містить такі конфігураційні файли:
 
 items/
-iot_devices.items
-
-metadata/
-semantic.metadata
+analytics_items.items
 
 rules/
-bridge.rules
+sensor_simulation.rules
+analytics.rules
 
 sitemaps/
-iot_dashboard.sitemap
+analytics_dashboard.sitemap
 
 ---
 
 ## Dashboard
 
-Dashboard системи відображає:
+Dashboard відображає:
 
-* значення сенсорів
-* стан пристроїв
-* можливість керування пристроями
+* значення сенсорів у реальному часі
+* статистичні показники
+* результати аналітики
 
 Адреса dashboard:
 
-http://localhost:8080/basicui/app?sitemap=iot_dashboard
+http://localhost:8080/basicui/app?sitemap=analytics_dashboard
 
 ---
 
@@ -228,7 +192,7 @@ http://localhost:8080/basicui/app?sitemap=iot_dashboard
 
 Під час демонстрації показується:
 
-* semantic модель пристроїв
-* структура онтології
-* автоматизація на основі онтології
-* симуляція сенсорів
+* симуляція сенсорних даних
+* аналітика IoT даних у реальному часі
+* визначення трендів
+* візуалізація даних у dashboard

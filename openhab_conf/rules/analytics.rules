@@ -1,0 +1,54 @@
+rule "Calculate Temperature Analytics"
+when
+    Item Temperature changed
+then
+
+    val Number temp = Temperature.state as Number
+
+    if(AvgTemperature.state == NULL){
+        AvgTemperature.postUpdate(temp)
+        MaxTemperature.postUpdate(temp)
+        MinTemperature.postUpdate(temp)
+    } else {
+
+        val Number avg = AvgTemperature.state as Number
+        val Number newAvg = (avg + temp) / 2
+        AvgTemperature.postUpdate(newAvg)
+
+        if(temp > (MaxTemperature.state as Number)){
+            MaxTemperature.postUpdate(temp)
+        }
+
+        if(temp < (MinTemperature.state as Number)){
+            MinTemperature.postUpdate(temp)
+        }
+
+        if(temp > avg){
+            TemperatureTrend.postUpdate("UP")
+        } else if(temp < avg){
+            TemperatureTrend.postUpdate("DOWN")
+        } else {
+            TemperatureTrend.postUpdate("STABLE")
+        }
+
+    }
+
+end
+
+
+rule "Calculate Humidity Analytics"
+when
+    Item Humidity changed
+then
+
+    val Number hum = Humidity.state as Number
+
+    if(AvgHumidity.state == NULL){
+        AvgHumidity.postUpdate(hum)
+    } else {
+        val Number avg = AvgHumidity.state as Number
+        val Number newAvg = (avg + hum) / 2
+        AvgHumidity.postUpdate(newAvg)
+    }
+
+end

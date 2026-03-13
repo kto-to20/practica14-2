@@ -1,0 +1,23 @@
+rule "Simulate Temperature"
+when
+    Time cron "0/20 * * * * ?"
+then
+    val Number temp = (Math::random * 10) + 20
+    Temperature.postUpdate(temp)
+end
+
+rule "Simulate Humidity"
+when
+    Time cron "0/25 * * * * ?"
+then
+    val Number hum = (Math::random * 40) + 40
+    Humidity.postUpdate(hum)
+end
+
+rule "Simulate Light"
+when
+    Time cron "0/30 * * * * ?"
+then
+    val Number light = (Math::random * 300)
+    LightLevel.postUpdate(light)
+end

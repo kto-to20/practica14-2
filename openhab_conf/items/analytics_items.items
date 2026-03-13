@@ -1,0 +1,8 @@
+
+Number AvgTemperature "Average Temperature [%.1f °C]"
+Number MaxTemperature "Max Temperature [%.1f °C]"
+Number MinTemperature "Min Temperature [%.1f °C]"
+
+Number AvgHumidity "Average Humidity [%.1f %%]"
+
+String TemperatureTrend "Temperature Trend [%s]"

@@ -58,6 +58,16 @@
           "redirectUri": "http://192.168.0.12:8080",
           "scope": "admin",
           "sessionCookie": true
+        },
+        {
+          "sessionId": "3dd9a1a9-34bc-4cc3-9f7d-dda8b5fe813d",
+          "refreshToken": "e0f5361a422e4fe2a56d803624d91859",
+          "createdTime": "Mar 13, 2026, 12:36:23 AM",
+          "lastRefreshTime": "Mar 13, 2026, 3:57:00 AM",
+          "clientId": "http://localhost:8080",
+          "redirectUri": "http://localhost:8080",
+          "scope": "admin",
+          "sessionCookie": true
         }
       ],
       "apiTokens": [
