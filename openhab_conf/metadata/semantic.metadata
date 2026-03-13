@@ -1,0 +1,29 @@
+Temperature:
+  ontology: Sensor
+  property: Temperature
+  location: LivingRoom
+
+Humidity:
+  ontology: Sensor
+  property: Humidity
+  location: LivingRoom
+
+LightLevel:
+  ontology: Sensor
+  property: Light
+  location: LivingRoom
+
+Zigbee_Light:
+  ontology: Actuator
+  capability: Lighting
+  location: LivingRoom
+
+Zigbee_Fan:
+  ontology: Actuator
+  capability: Cooling
+  location: LivingRoom
+
+Zigbee_Socket:
+  ontology: Actuator
+  capability: Power
+  location: LivingRoom

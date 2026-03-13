@@ -1,27 +1,3 @@
-rule "Temperature automation"
-when
-    Item Temperature changed
-then
-    if((Temperature.state as Number) > 25){
-        Zigbee_Fan.sendCommand(ON)
-    } else {
-        Zigbee_Fan.sendCommand(OFF)
-    }
-end
-
-
-rule "Light automation"
-when
-    Item LightLevel changed
-then
-    if((LightLevel.state as Number) < 100){
-        Zigbee_Light.sendCommand(ON)
-    } else {
-        Zigbee_Light.sendCommand(OFF)
-    }
-end
-
-
 rule "Simulate Temperature"
 when
     Time cron "0/30 * * * * ?"
@@ -37,4 +13,28 @@ when
 then
     val Number light = (Math::random * 300)
     LightLevel.postUpdate(light)
+end
+
+
+rule "Ontology-based cooling"
+when
+    Item Temperature changed
+then
+    if((Temperature.state as Number) > 25){
+        Zigbee_Fan.sendCommand(ON)
+    } else {
+        Zigbee_Fan.sendCommand(OFF)
+    }
+end
+
+
+rule "Ontology-based lighting"
+when
+    Item LightLevel changed
+then
+    if((LightLevel.state as Number) < 100){
+        Zigbee_Light.sendCommand(ON)
+    } else {
+        Zigbee_Light.sendCommand(OFF)
+    }
 end

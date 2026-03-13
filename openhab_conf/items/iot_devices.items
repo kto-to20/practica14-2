@@ -1,7 +1,10 @@
-Number Temperature "Temperature [%.1f °C]"
-Number Humidity "Humidity [%.1f %%]"
-Number LightLevel "Light [%d lx]"
+Group Home "Smart Home" ["Location"]
+Group LivingRoom "Living Room" (Home) ["Location"]
 
-Switch Zigbee_Light "Zigbee Light"
-Switch Zigbee_Fan "Zigbee Fan"
-Switch Zigbee_Socket "Zigbee Socket"
+Number Temperature "Temperature [%.1f °C]" (LivingRoom) ["Measurement","Temperature"]
+Number Humidity "Humidity [%.1f %%]" (LivingRoom) ["Measurement","Humidity"]
+Number LightLevel "Light [%d lx]" (LivingRoom) ["Measurement","Light"]
+
+Switch Zigbee_Light "Zigbee Light" (LivingRoom) ["Light"]
+Switch Zigbee_Fan "Zigbee Fan" (LivingRoom) ["Fan"]
+Switch Zigbee_Socket "Zigbee Socket" (LivingRoom) ["Switch"]
