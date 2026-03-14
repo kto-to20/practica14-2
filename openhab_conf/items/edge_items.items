@@ -1,0 +1,12 @@
+// ===== EDGE ANALYTICS METRICS =====
+
+Number EdgeAvgTemp "Edge Average Temperature [%.1f °C]"
+Number EdgeMaxTemp "Edge Max Temperature [%.1f °C]"
+Number EdgeMinTemp "Edge Min Temperature [%.1f °C]"
+
+Number EdgeAvgHumidity "Edge Average Humidity [%.1f %%]"
+
+Number TempVariance "Temperature Variance [%.2f]"
+
+String TempAnomaly "Temperature Anomaly [%s]"
+String HumidityAnomaly "Humidity Anomaly [%s]"

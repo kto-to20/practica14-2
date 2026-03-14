@@ -1,0 +1,90 @@
+rule "Edge Temperature Analytics"
+when
+    Item Temperature changed
+then
+
+    val Number temp = Temperature.state as Number
+
+    // Initialize values
+    if(EdgeAvgTemp.state == NULL){
+        EdgeAvgTemp.postUpdate(temp)
+        EdgeMaxTemp.postUpdate(temp)
+        EdgeMinTemp.postUpdate(temp)
+        TempVariance.postUpdate(0)
+    }
+    else {
+
+        val Number avg = EdgeAvgTemp.state as Number
+        val Number newAvg = (avg + temp) / 2
+
+        EdgeAvgTemp.postUpdate(newAvg)
+
+        // Max temperature
+        if(temp > (EdgeMaxTemp.state as Number)){
+            EdgeMaxTemp.postUpdate(temp)
+        }
+
+        // Min temperature
+        if(temp < (EdgeMinTemp.state as Number)){
+            EdgeMinTemp.postUpdate(temp)
+        }
+
+        // Variance (simple edge calculation)
+        val Number variance = (temp - newAvg) * (temp - newAvg)
+        TempVariance.postUpdate(variance)
+
+    }
+
+end
+
+
+rule "Edge Humidity Analytics"
+when
+    Item Humidity changed
+then
+
+    val Number hum = Humidity.state as Number
+
+    if(EdgeAvgHumidity.state == NULL){
+        EdgeAvgHumidity.postUpdate(hum)
+    }
+    else{
+        val Number avg = EdgeAvgHumidity.state as Number
+        val Number newAvg = (avg + hum) / 2
+        EdgeAvgHumidity.postUpdate(newAvg)
+    }
+
+end
+
+rule "Temperature Anomaly Detection"
+when
+    Item Temperature changed
+then
+
+    val Number temp = Temperature.state as Number
+
+    if(temp > 30 || temp < 15){
+        TempAnomaly.postUpdate("ANOMALY")
+    }
+    else{
+        TempAnomaly.postUpdate("NORMAL")
+    }
+
+end
+
+
+rule "Humidity Anomaly Detection"
+when
+    Item Humidity changed
+then
+
+    val Number hum = Humidity.state as Number
+
+    if(hum > 90 || hum < 20){
+        HumidityAnomaly.postUpdate("ANOMALY")
+    }
+    else{
+        HumidityAnomaly.postUpdate("NORMAL")
+    }
+
+end

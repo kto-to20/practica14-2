@@ -1,0 +1,26 @@
+sitemap edge_dashboard label="Edge Analytics Dashboard"
+{
+
+Frame label="Sensor Data"
+{
+Text item=Temperature
+Text item=Humidity
+Text item=LightLevel
+}
+
+Frame label="Edge Analytics"
+{
+Text item=EdgeAvgTemp
+Text item=EdgeMaxTemp
+Text item=EdgeMinTemp
+Text item=TempVariance
+Text item=EdgeAvgHumidity
+}
+
+Frame label="Anomaly Detection"
+{
+Text item=TempAnomaly
+Text item=HumidityAnomaly
+}
+
+}

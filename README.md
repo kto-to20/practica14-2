@@ -1,102 +1,103 @@
-# IoT Real-Time Stream Processing System using OpenHAB
+# IoT Edge Analytics Node using OpenHAB
 
 ## Project Description
 
-This project demonstrates a **Real-Time IoT Stream Processing system** implemented using OpenHAB Rules.
+This project demonstrates an **Edge Computing analytics node** implemented using OpenHAB.
 
-The system processes multiple IoT data streams and performs **Complex Event Processing (CEP)** to detect patterns and generate composite events.
+The system performs **local data processing and decision-making directly on the edge device**, without relying on external cloud services. Sensor data is analyzed locally, and statistical metrics as well as anomaly detection results are generated in real time.
 
-Sensor data streams are simulated in real time and processed through a rule engine to identify environmental conditions and trigger alerts.
+The main goal of the project is to demonstrate **Edge Analytics principles**, where data is processed close to the data source to reduce latency and network usage.
 
 ---
 
-## System Architecture
+## Edge Architecture
 
 ```mermaid
 graph TD
 
-Sensors --> DataStreams
-DataStreams --> CEPProcessing
-CEPProcessing --> CompositeEvents
-CompositeEvents --> Dashboard
+Sensors --> LocalProcessing
+LocalProcessing --> EdgeAnalytics
+EdgeAnalytics --> AnomalyDetection
+AnomalyDetection --> LocalDashboard
 ```
 
 ---
 
-## Data Streams
+## Sensor Data
 
-The system processes multiple real-time streams:
+The system uses simulated IoT sensors:
 
-* Temperature stream
-* Humidity stream
-* Light level stream
+* Temperature sensor
+* Humidity sensor
+* Light sensor
 
-Each stream continuously generates values using OpenHAB rules to simulate IoT devices.
+These sensors generate data locally using OpenHAB rules.
 
 ---
 
-## Complex Event Processing (CEP)
+## Edge Analytics Features
 
-The system analyzes streams and detects patterns using CEP rules.
+The edge node performs several statistical calculations:
 
-Examples of composite events:
+* Average temperature
+* Maximum temperature
+* Minimum temperature
+* Temperature variance
+* Average humidity
 
-### HotHumidAlert
+All calculations are executed locally without cloud services.
 
-Triggered when:
+---
 
-* Temperature > 27°C
-* Humidity > 75%
+## Anomaly Detection
 
-### DarkRoomEvent
+The system detects abnormal environmental conditions based on predefined thresholds.
 
-Triggered when:
+Example rules:
 
-* Light level < 80 lx
+* Temperature anomaly if temperature > 30°C or < 15°C
+* Humidity anomaly if humidity > 90% or < 20%
 
-### ComfortState
-
-Evaluates environmental comfort conditions based on temperature and humidity ranges.
+This demonstrates **local anomaly detection at the edge**.
 
 ---
 
 ## OpenHAB Configuration
 
-The system uses the following configuration files:
+The project includes the following configuration files:
 
 items/
-stream_items.items
+edge_items.items
 
 rules/
-stream_simulation.rules
-cep.rules
+edge_analytics.rules
 
 sitemaps/
-stream_dashboard.sitemap
+edge_dashboard.sitemap
 
 ---
 
-## Dashboard
+## Edge Dashboard
 
-The dashboard visualizes:
+The dashboard displays:
 
-* real-time data streams
-* sensor values
-* detected complex events
+* real-time sensor values
+* edge analytics metrics
+* anomaly detection status
 
 Dashboard URL:
 
-http://localhost:8080/basicui/app?sitemap=stream_dashboard
+http://localhost:8080/basicui/app?sitemap=edge_dashboard
 
 ---
 
-## Real-Time Processing Workflow
+## Edge Processing Workflow
 
-1. Sensor data streams are generated in real time.
-2. Streams are processed using OpenHAB rules.
-3. CEP logic analyzes correlations between streams.
-4. Composite events are generated when specific conditions occur.
-5. Results are visualized in the dashboard.
+1. Sensors generate environmental data.
+2. Data is processed locally by OpenHAB rules.
+3. Statistical metrics are calculated on the edge node.
+4. Anomaly detection identifies abnormal values.
+5. Results are visualized in the local dashboard.
 
 ---
 
@@ -104,72 +105,74 @@ http://localhost:8080/basicui/app?sitemap=stream_dashboard
 
 The demonstration shows:
 
-* multiple data streams updating in real time
-* complex event detection
-* correlation between sensor streams
-* visualization of composite events
+* real-time sensor data generation
+* local analytics computation
+* anomaly detection on the edge device
+* dashboard visualization without cloud services
 
 ---
 
-# Система Real-Time Stream Processing для IoT з використанням OpenHAB
+# Edge Analytics Node для IoT з використанням OpenHAB
 
 ## Опис проєкту
 
-Цей проєкт демонструє систему **обробки потоків IoT даних у реальному часі**, реалізовану за допомогою правил OpenHAB.
+Цей проєкт демонструє **Edge Computing систему для аналітики IoT даних**, реалізовану за допомогою OpenHAB.
 
-Система обробляє декілька потоків даних та виконує **Complex Event Processing (CEP)** для виявлення подій та закономірностей.
+Система виконує **локальну обробку даних та прийняття рішень без використання хмарних сервісів**. Дані сенсорів аналізуються безпосередньо на edge node, де обчислюються статистичні показники та визначаються аномалії.
 
-Потоки даних генеруються автоматично для імітації роботи реальних IoT сенсорів.
+Метою роботи є демонстрація принципів **Edge Analytics**, коли обробка даних відбувається максимально близько до джерела даних.
 
 ---
 
-## Архітектура системи
+## Архітектура Edge системи
 
 ```mermaid
 graph TD
 
-Sensors --> DataStreams
-DataStreams --> CEPProcessing
-CEPProcessing --> CompositeEvents
-CompositeEvents --> Dashboard
+Sensors --> LocalProcessing
+LocalProcessing --> EdgeAnalytics
+EdgeAnalytics --> AnomalyDetection
+AnomalyDetection --> LocalDashboard
 ```
 
 ---
 
-## Потоки даних
+## Дані сенсорів
 
-У системі використовуються кілька потоків даних:
+У системі використовуються такі сенсори:
 
-* потік температури
-* потік вологості
-* потік освітлення
+* сенсор температури
+* сенсор вологості
+* сенсор освітлення
 
-Дані генеруються у реальному часі за допомогою OpenHAB Rules.
+Дані генеруються локально за допомогою OpenHAB Rules.
 
 ---
 
-## Complex Event Processing (CEP)
+## Edge аналітика
 
-Система аналізує потоки даних та визначає події на основі заданих правил.
+Edge node виконує локальні статистичні обчислення:
 
-Приклади composite events:
+* середня температура
+* максимальна температура
+* мінімальна температура
+* дисперсія температури
+* середня вологість
 
-### HotHumidAlert
+Всі обчислення виконуються локально.
 
-Виникає коли:
+---
 
-* температура > 27°C
-* вологість > 75%
+## Виявлення аномалій
 
-### DarkRoomEvent
+Система визначає аномальні значення на основі порогових значень.
 
-Виникає коли:
+Приклади:
 
-* рівень освітлення < 80 lx
+* аномалія температури при значенні > 30°C або < 15°C
+* аномалія вологості при значенні > 90% або < 20%
 
-### ComfortState
-
-Оцінює комфортність середовища на основі температури та вологості.
+Це демонструє **локальне виявлення аномалій на edge node**.
 
 ---
 
@@ -178,14 +181,13 @@ CompositeEvents --> Dashboard
 У проєкті використовуються такі файли:
 
 items/
-stream_items.items
+edge_items.items
 
 rules/
-stream_simulation.rules
-cep.rules
+edge_analytics.rules
 
 sitemaps/
-stream_dashboard.sitemap
+edge_dashboard.sitemap
 
 ---
 
@@ -193,22 +195,22 @@ stream_dashboard.sitemap
 
 Dashboard відображає:
 
-* потоки даних у реальному часі
-* значення сенсорів
-* виявлені комплексні події
+* значення сенсорів у реальному часі
+* результати edge аналітики
+* статус виявлення аномалій
 
 Адреса dashboard:
 
-http://localhost:8080/basicui/app?sitemap=stream_dashboard
+http://localhost:8080/basicui/app?sitemap=edge_dashboard
 
 ---
 
 ## Логіка роботи системи
 
-1. Потоки даних генеруються сенсорами.
-2. Дані передаються до OpenHAB.
-3. CEP правила аналізують потоки та визначають події.
-4. Генеруються composite events.
+1. Сенсори генерують дані.
+2. Дані обробляються локально через OpenHAB rules.
+3. Edge node виконує статистичну аналітику.
+4. Система визначає аномалії.
 5. Результати відображаються у dashboard.
 
 ---
@@ -217,7 +219,7 @@ http://localhost:8080/basicui/app?sitemap=stream_dashboard
 
 Під час демонстрації показується:
 
-* генерація потоків даних
-* обробка подій у реальному часі
-* кореляція між потоками даних
-* відображення complex events
+* генерація даних сенсорів
+* локальна аналітика
+* виявлення аномалій
+* робота системи без cloud сервісів
