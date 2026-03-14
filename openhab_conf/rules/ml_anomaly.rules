@@ -5,9 +5,13 @@ then
 
     val Number temp = Temperature.state as Number
 
-    if(MLAvgTemp.state == NULL){
+    if(MLAvgTemp.state == NULL || MLAvgTemp.state == UNDEF){
+
         MLAvgTemp.postUpdate(temp)
         MLVarianceTemp.postUpdate(0)
+        MLAnomalyScore.postUpdate(0)
+        MLAnomalyStatus.postUpdate("NORMAL")
+
     }
     else{
 
@@ -40,8 +44,12 @@ then
 
     val Number hum = Humidity.state as Number
 
-    if(MLAvgHumidity.state == NULL){
+    if(MLAvgHumidity.state == NULL || MLAvgHumidity.state == UNDEF){
+
         MLAvgHumidity.postUpdate(hum)
+        MLHumidityScore.postUpdate(0)
+        MLHumidityStatus.postUpdate("NORMAL")
+
     }
     else{
 
