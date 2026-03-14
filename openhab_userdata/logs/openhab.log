@@ -1,0 +1,1276 @@
+2026-03-14 17:50:24.234 [INFO ] [org.openhab.core.Activator          ] - Starting openHAB 4.2.1 (Release Build)
+2026-03-14 17:50:24.419 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Time zone set to 'Europe/Kiev'.
+2026-03-14 17:50:24.421 [INFO ] [.core.internal.i18n.I18nProviderImpl] - Locale set to 'uk_UA'.
+2026-03-14 17:50:27.316 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'analytics_items.items'
+2026-03-14 17:50:27.445 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'edge_items.items'
+2026-03-14 17:50:27.454 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'iot_devices.items'
+2026-03-14 17:50:27.470 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'stream_items.items'
+2026-03-14 17:50:27.638 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'rrd4j.persist'
+2026-03-14 17:50:27.799 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'edge_dashboard.sitemap'
+2026-03-14 17:50:27.835 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'stream_dashboard.sitemap'
+2026-03-14 17:50:27.842 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'iot_dashboard.sitemap'
+2026-03-14 17:50:27.850 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'analytics_dashboard.sitemap'
+2026-03-14 17:50:27.902 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'mqtt_zigbee.things'
+2026-03-14 17:50:28.550 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/basicui/app's Observer 
+2026-03-14 17:50:28.585 [WARN ] [ity.CommunityMarketplaceAddonService] - Unable to retrieve marketplace add-ons: java.lang.IllegalStateException: Expected a string but was BEGIN_OBJECT at line 1 column 20949 path $.topic_list.topics[1].tags[0]
+2026-03-14 17:50:28.781 [WARN ] [.transport.servlet.ServletController] - Can't find the request for http://localhost:8080/favicon.ico's Observer 
+2026-03-14 17:50:29.509 [INFO ] [.core.model.lsp.internal.ModelServer] - Started Language Server Protocol (LSP) service on port 5007
+2026-03-14 17:50:29.576 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'bridge.rules'
+2026-03-14 17:50:29.960 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'analytics.rules'
+2026-03-14 17:50:30.076 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'edge_analytics.rules'
+2026-03-14 17:50:30.198 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'cep.rules'
+2026-03-14 17:50:30.247 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'sensor_simulation.rules'
+2026-03-14 17:50:30.280 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'stream_simulation.rules'
+2026-03-14 17:50:36.411 [INFO ] [rt.modbus.internal.ModbusManagerImpl] - Modbus manager activated
+2026-03-14 17:50:36.784 [WARN ] [ty.util.ssl.SslContextFactory.config] - Trusting all certificates configured for Client@7446a845[provider=null,keyStore=null,trustStore=null]
+2026-03-14 17:50:36.785 [WARN ] [ty.util.ssl.SslContextFactory.config] - No Client EndPointIdentificationAlgorithm configured for Client@7446a845[provider=null,keyStore=null,trustStore=null]
+2026-03-14 17:50:36.848 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 17:50:36.848 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 17:50:36.930 [INFO ] [io.openhabcloud.internal.CloudClient] - Connected to the openHAB Cloud service (UUID = 03...99, base URL = http://localhost:8080)
+2026-03-14 17:50:39.817 [INFO ] [e.automation.internal.RuleEngineImpl] - Rule engine started.
+2026-03-14 17:50:40.968 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.924642982430733
+2026-03-14 17:50:41.112 [ERROR] [internal.handler.ScriptActionHandler] - Script execution of rule with UID 'cep-3' failed: Could not cast NULL to java.lang.Number; line 48, column 20, length 25 in cep
+2026-03-14 17:50:42.883 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 130.01811009690317
+2026-03-14 17:50:46.862 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:50:46.862 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:50:46.870 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 17:50:46.870 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 17:50:48.882 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 43.25220173001369
+2026-03-14 17:50:50.880 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.020758436059353
+2026-03-14 17:50:56.882 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 249.02445576763094
+2026-03-14 17:51:00.882 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.846652396417166
+2026-03-14 17:51:00.883 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 49.038655173280645
+2026-03-14 17:51:00.882 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 154.93652431374232
+2026-03-14 17:51:11.107 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.485864522028308
+2026-03-14 17:51:12.932 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 48.737442991583116
+2026-03-14 17:51:14.932 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 147.86927890101768
+2026-03-14 17:51:20.937 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.177323397012582
+2026-03-14 17:51:24.932 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 49.19890354124054
+2026-03-14 17:51:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 276.0937503239715
+2026-03-14 17:51:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.63921454632461
+2026-03-14 17:51:36.932 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 55.14396619556621
+2026-03-14 17:51:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.445901591201203
+2026-03-14 17:51:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 9.049832729661954
+2026-03-14 17:51:46.873 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:51:46.874 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:51:46.879 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 17:51:46.880 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 17:51:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 73.81448235680304
+2026-03-14 17:51:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.1318578370251
+2026-03-14 17:51:56.932 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 243.66322158395843
+2026-03-14 17:52:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.949691215659797
+2026-03-14 17:52:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 12.697354561865282
+2026-03-14 17:52:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 58.64901374785482
+2026-03-14 17:52:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.438312290286845
+2026-03-14 17:52:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 47.896905891545046
+2026-03-14 17:52:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 2.5843815871738007
+2026-03-14 17:52:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.25465684137646
+2026-03-14 17:52:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 71.18263760591816
+2026-03-14 17:52:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 60.53812428108717
+2026-03-14 17:52:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.12907772347534
+2026-03-14 17:52:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 77.98737104886816
+2026-03-14 17:52:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.00897397312945
+2026-03-14 17:52:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 293.7310330027307
+2026-03-14 17:52:46.881 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:52:46.883 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:52:46.884 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 17:52:46.891 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 17:52:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 63.79356205400278
+2026-03-14 17:52:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.053828498486016
+2026-03-14 17:52:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 173.43635039470297
+2026-03-14 17:53:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.149467212309293
+2026-03-14 17:53:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 56.028498385151835
+2026-03-14 17:53:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 93.24783123585448
+2026-03-14 17:53:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.187722826639686
+2026-03-14 17:53:12.932 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 79.66888783497728
+2026-03-14 17:53:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 34.15786820748499
+2026-03-14 17:53:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.461086268115835
+2026-03-14 17:53:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 51.85237856326928
+2026-03-14 17:53:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 20.165049209503916
+2026-03-14 17:53:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.490080520298328
+2026-03-14 17:53:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 57.75152117607968
+2026-03-14 17:53:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.985706376577653
+2026-03-14 17:53:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 253.47686261524655
+2026-03-14 17:53:46.891 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:53:46.893 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:53:46.894 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 17:53:46.901 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 17:53:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 63.00237386699612
+2026-03-14 17:53:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.371451977856744
+2026-03-14 17:53:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 111.68516414120381
+2026-03-14 17:54:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.84441463985144
+2026-03-14 17:54:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 62.84753006749571
+2026-03-14 17:54:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 55.444336915215246
+2026-03-14 17:54:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.393976481499813
+2026-03-14 17:54:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 63.35459044516392
+2026-03-14 17:54:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 61.92003201230415
+2026-03-14 17:54:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.570077859224842
+2026-03-14 17:54:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 55.15123930045814
+2026-03-14 17:54:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 299.2724065417945
+2026-03-14 17:54:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.416026432920628
+2026-03-14 17:54:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 41.21663575772698
+2026-03-14 17:54:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.961527392690012
+2026-03-14 17:54:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 19.13524342791938
+2026-03-14 17:54:46.899 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:54:46.901 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 17:54:46.902 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:54:46.909 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 17:54:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 67.01619187575034
+2026-03-14 17:54:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.194215574179594
+2026-03-14 17:54:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 134.27043972995963
+2026-03-14 17:55:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.218395582611116
+2026-03-14 17:55:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 64.7754585404758
+2026-03-14 17:55:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 196.62343032397686
+2026-03-14 17:55:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.801854180188126
+2026-03-14 17:55:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 77.63228344638193
+2026-03-14 17:55:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 286.6155995872925
+2026-03-14 17:55:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.628120925579946
+2026-03-14 17:55:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.62338109615642
+2026-03-14 17:55:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 33.15402645802937
+2026-03-14 17:55:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.662499224404268
+2026-03-14 17:55:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 74.13919767182686
+2026-03-14 17:55:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.928923309048653
+2026-03-14 17:55:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 161.0466864877007
+2026-03-14 17:55:46.904 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:55:46.907 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 17:55:46.911 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:55:46.913 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 17:55:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 58.3235556810898
+2026-03-14 17:55:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.407157784240717
+2026-03-14 17:55:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 282.6501548211985
+2026-03-14 17:56:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.778868888668647
+2026-03-14 17:56:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 47.16799120803095
+2026-03-14 17:56:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 175.07697346387536
+2026-03-14 17:56:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.26281817516501
+2026-03-14 17:56:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 44.848627269559145
+2026-03-14 17:56:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 250.5039713662034
+2026-03-14 17:56:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.520646924005582
+2026-03-14 17:56:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 66.8050992578233
+2026-03-14 17:56:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 202.34127263902943
+2026-03-14 17:56:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.989017484975896
+2026-03-14 17:56:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 79.71098702138491
+2026-03-14 17:56:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.048872669278552
+2026-03-14 17:56:42.929 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 119.02527293653006
+2026-03-14 17:56:46.908 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:56:46.913 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 17:56:46.914 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:56:46.918 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 17:56:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 75.53596638737747
+2026-03-14 17:56:50.928 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.96958082260079
+2026-03-14 17:56:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 70.40525504692609
+2026-03-14 17:57:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.686281118443528
+2026-03-14 17:57:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 44.89934839772488
+2026-03-14 17:57:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 46.40087145792826
+2026-03-14 17:57:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.128631185917932
+2026-03-14 17:57:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 73.92455210866302
+2026-03-14 17:57:14.932 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 5.052038234998191
+2026-03-14 17:57:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.100315878927223
+2026-03-14 17:57:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 69.57689668261068
+2026-03-14 17:57:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 74.84885850372484
+2026-03-14 17:57:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.60774123203462
+2026-03-14 17:57:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 61.846241710369895
+2026-03-14 17:57:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.771751483124326
+2026-03-14 17:57:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 92.20836379683777
+2026-03-14 17:57:46.916 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:57:46.918 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 17:57:46.921 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:57:46.923 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 17:57:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 41.59609814132516
+2026-03-14 17:57:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.080993511412693
+2026-03-14 17:57:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 77.97788104764469
+2026-03-14 17:58:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.812355266506575
+2026-03-14 17:58:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 55.9245395179783
+2026-03-14 17:58:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 138.60127453369068
+2026-03-14 17:58:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.76596774444669
+2026-03-14 17:58:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 40.22211052215234
+2026-03-14 17:58:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 105.85550118538639
+2026-03-14 17:58:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.030277111287344
+2026-03-14 17:58:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 54.1571153797737
+2026-03-14 17:58:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 220.86753305268388
+2026-03-14 17:58:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.505378125535437
+2026-03-14 17:58:36.932 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 65.34971454826217
+2026-03-14 17:58:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.19494528769811
+2026-03-14 17:58:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 13.090022474685037
+2026-03-14 17:58:46.920 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:58:46.922 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 17:58:46.927 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:58:46.928 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 17:58:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 49.94486288121217
+2026-03-14 17:58:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.219910741551445
+2026-03-14 17:58:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 37.099844501179454
+2026-03-14 17:59:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 98.01167084879862
+2026-03-14 17:59:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.121294819053247
+2026-03-14 17:59:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 49.03751513335739
+2026-03-14 17:59:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.32926238311477
+2026-03-14 17:59:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 66.45903038675641
+2026-03-14 17:59:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 179.53063293074783
+2026-03-14 17:59:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.331375472900966
+2026-03-14 17:59:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 53.00442789997707
+2026-03-14 17:59:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 256.4013187259307
+2026-03-14 17:59:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.162118511592332
+2026-03-14 17:59:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 79.34384753018307
+2026-03-14 17:59:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.647775062618873
+2026-03-14 17:59:42.932 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 85.12214519334708
+2026-03-14 17:59:46.924 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:59:46.927 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 17:59:46.930 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 17:59:46.931 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 17:59:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 64.16803850836624
+2026-03-14 17:59:50.931 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.920037036831616
+2026-03-14 17:59:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 66.59137273095243
+2026-03-14 18:00:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.548412180677357
+2026-03-14 18:00:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 58.568609839093114
+2026-03-14 18:00:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 8.219868399415331
+2026-03-14 18:00:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.612256216800027
+2026-03-14 18:00:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 70.66528585388951
+2026-03-14 18:00:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 100.99441513030976
+2026-03-14 18:00:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.77313020590067
+2026-03-14 18:00:24.932 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 74.78718441179777
+2026-03-14 18:00:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 82.60964007531217
+2026-03-14 18:00:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.801834020939847
+2026-03-14 18:00:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 65.94974046725719
+2026-03-14 18:00:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.87827174447716
+2026-03-14 18:00:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 173.5046016166059
+2026-03-14 18:00:46.928 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:00:46.932 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:00:46.933 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:00:46.938 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:00:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 63.08484350782012
+2026-03-14 18:00:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.325857105495857
+2026-03-14 18:00:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 177.56329049063902
+2026-03-14 18:01:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.32294087701177
+2026-03-14 18:01:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.934322978376336
+2026-03-14 18:01:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 224.3966314224198
+2026-03-14 18:01:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.678529612670832
+2026-03-14 18:01:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 54.82138280909647
+2026-03-14 18:01:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 122.2306918368061
+2026-03-14 18:01:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.402352427355165
+2026-03-14 18:01:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 42.36489978488184
+2026-03-14 18:01:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 165.36878178340487
+2026-03-14 18:01:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.26635806196284
+2026-03-14 18:01:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 73.56459152836678
+2026-03-14 18:01:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.119354631328672
+2026-03-14 18:01:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 175.94988378373188
+2026-03-14 18:01:46.933 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:01:46.935 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:01:46.941 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:01:46.943 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:01:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 57.63526841194996
+2026-03-14 18:01:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.966700302355218
+2026-03-14 18:01:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 150.0794684617997
+2026-03-14 18:02:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 271.2042669898882
+2026-03-14 18:02:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.88978121197099
+2026-03-14 18:02:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 74.50979959966234
+2026-03-14 18:02:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.281597668404608
+2026-03-14 18:02:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 54.2913332337929
+2026-03-14 18:02:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 43.60712961549831
+2026-03-14 18:02:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.090780603852537
+2026-03-14 18:02:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 77.40639090742319
+2026-03-14 18:02:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 28.160728305497674
+2026-03-14 18:02:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.59971217273891
+2026-03-14 18:02:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 48.590149458650046
+2026-03-14 18:02:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.153306696884933
+2026-03-14 18:02:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 31.087609712736853
+2026-03-14 18:02:46.937 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:02:46.939 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:02:46.944 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:02:46.946 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:02:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 50.68151842934994
+2026-03-14 18:02:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.271575509713905
+2026-03-14 18:02:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 53.394394482935596
+2026-03-14 18:03:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 81.0562306418815
+2026-03-14 18:03:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.754817652082792
+2026-03-14 18:03:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 59.1660144496469
+2026-03-14 18:03:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.212634714817852
+2026-03-14 18:03:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 55.906619535338194
+2026-03-14 18:03:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 29.682249410252226
+2026-03-14 18:03:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.679180962474682
+2026-03-14 18:03:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 72.04380285548307
+2026-03-14 18:03:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 19.964758896860346
+2026-03-14 18:03:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.4479098429049
+2026-03-14 18:03:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 69.02017820657039
+2026-03-14 18:03:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.069175675272227
+2026-03-14 18:03:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 92.42206281362667
+2026-03-14 18:03:46.940 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:03:46.942 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:03:46.948 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:03:46.950 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:03:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 47.60793869517017
+2026-03-14 18:03:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.17141602177245
+2026-03-14 18:03:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 78.69007647596858
+2026-03-14 18:04:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.963335648420575
+2026-03-14 18:04:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 6.8353534548340145
+2026-03-14 18:04:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 41.445235673558706
+2026-03-14 18:04:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.93360926914177
+2026-03-14 18:04:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 53.51416728792654
+2026-03-14 18:04:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 258.830721195114
+2026-03-14 18:04:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.717184277660436
+2026-03-14 18:04:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 53.39634509684008
+2026-03-14 18:04:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 284.33858854427194
+2026-03-14 18:04:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.39682570840569
+2026-03-14 18:04:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 51.70175744459245
+2026-03-14 18:04:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.035409718461942
+2026-03-14 18:04:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 194.9188426909046
+2026-03-14 18:04:46.944 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:04:46.946 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:04:46.952 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:04:46.954 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:04:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 46.975886882443405
+2026-03-14 18:04:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.086325454877517
+2026-03-14 18:04:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 47.518732217926306
+2026-03-14 18:05:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 100.56037888862366
+2026-03-14 18:05:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 57.21267921672999
+2026-03-14 18:05:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.387737774783396
+2026-03-14 18:05:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.61225488421281
+2026-03-14 18:05:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 65.66219785547119
+2026-03-14 18:05:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 256.07496527660396
+2026-03-14 18:05:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.758149064717593
+2026-03-14 18:05:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 79.34907432201754
+2026-03-14 18:05:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 143.4948510662142
+2026-03-14 18:05:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.232470925325433
+2026-03-14 18:05:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 71.146657369571
+2026-03-14 18:05:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.33219732616591
+2026-03-14 18:05:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 158.03738268470482
+2026-03-14 18:05:46.947 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:05:46.953 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:05:46.954 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:05:46.957 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:05:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 64.31332155200181
+2026-03-14 18:05:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.421413246949346
+2026-03-14 18:05:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 187.91114197912606
+2026-03-14 18:06:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.49552682781757
+2026-03-14 18:06:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 46.11266104855749
+2026-03-14 18:06:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 238.0134216773176
+2026-03-14 18:06:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.617685365918717
+2026-03-14 18:06:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 44.67691425723559
+2026-03-14 18:06:14.932 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 198.01593922542193
+2026-03-14 18:06:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.240712056144943
+2026-03-14 18:06:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 44.18205087498999
+2026-03-14 18:06:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 148.79290487708334
+2026-03-14 18:06:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.80023478966467
+2026-03-14 18:06:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 55.67827375502579
+2026-03-14 18:06:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.31708672564707
+2026-03-14 18:06:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 292.3828264624839
+2026-03-14 18:06:46.956 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:06:46.958 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:06:46.959 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:06:46.963 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:06:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 40.43489875716129
+2026-03-14 18:06:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.462393816929062
+2026-03-14 18:06:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 204.86720031279876
+2026-03-14 18:07:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.85484329737898
+2026-03-14 18:07:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 77.23983129458365
+2026-03-14 18:07:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 75.76975657463319
+2026-03-14 18:07:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.532018360159917
+2026-03-14 18:07:12.929 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 78.40291043009401
+2026-03-14 18:07:14.929 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 268.1703320308505
+2026-03-14 18:07:20.928 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.70961798569533
+2026-03-14 18:07:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.52307483859121
+2026-03-14 18:07:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 18.71972465894125
+2026-03-14 18:07:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.100673640048534
+2026-03-14 18:07:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 69.82394672812616
+2026-03-14 18:07:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.747985211913594
+2026-03-14 18:07:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 21.584908016905047
+2026-03-14 18:07:46.957 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:07:46.960 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:07:46.964 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:07:46.967 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:07:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 56.580149596003736
+2026-03-14 18:07:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.729384145996804
+2026-03-14 18:07:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 284.241578601012
+2026-03-14 18:08:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.136729804375435
+2026-03-14 18:08:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 78.10504151436805
+2026-03-14 18:08:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 231.99280105132075
+2026-03-14 18:08:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.728876087210665
+2026-03-14 18:08:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 56.699570771048656
+2026-03-14 18:08:14.932 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 8.926570317607862
+2026-03-14 18:08:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.21309644844348
+2026-03-14 18:08:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 43.47619094908625
+2026-03-14 18:08:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 226.27427555862246
+2026-03-14 18:08:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.509663022423037
+2026-03-14 18:08:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 68.18483200376556
+2026-03-14 18:08:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.60261971479577
+2026-03-14 18:08:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 159.8333674825627
+2026-03-14 18:08:46.962 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:08:46.964 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:08:46.971 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:08:46.973 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:08:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 65.53906827651687
+2026-03-14 18:08:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.71312376608248
+2026-03-14 18:08:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 155.21463904690327
+2026-03-14 18:09:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.705345889239872
+2026-03-14 18:09:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 127.8840002693051
+2026-03-14 18:09:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 74.95911271093573
+2026-03-14 18:09:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.136074679646033
+2026-03-14 18:09:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 61.84857827089109
+2026-03-14 18:09:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 225.4447633685476
+2026-03-14 18:09:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.235450335439367
+2026-03-14 18:09:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 51.67507928005903
+2026-03-14 18:09:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 205.89458102226692
+2026-03-14 18:09:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.41551543265921
+2026-03-14 18:09:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 59.76795872205679
+2026-03-14 18:09:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.076420319238593
+2026-03-14 18:09:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 179.1779261610256
+2026-03-14 18:09:46.964 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:09:46.966 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:09:46.974 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:09:46.976 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:09:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 77.06373996044965
+2026-03-14 18:09:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.267546948735987
+2026-03-14 18:09:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 35.85062436541032
+2026-03-14 18:10:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.987180112047916
+2026-03-14 18:10:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 60.62111319750198
+2026-03-14 18:10:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 162.95018790851807
+2026-03-14 18:10:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.838680879522418
+2026-03-14 18:10:12.932 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 55.06709706216859
+2026-03-14 18:10:14.932 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 238.72100797821105
+2026-03-14 18:10:20.931 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.061006719222295
+2026-03-14 18:10:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 54.27083650495603
+2026-03-14 18:10:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 95.22309814964993
+2026-03-14 18:10:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.614590101178756
+2026-03-14 18:10:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 72.03476620322814
+2026-03-14 18:10:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.084903564334784
+2026-03-14 18:10:42.929 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 63.396355311541775
+2026-03-14 18:10:46.968 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:10:46.970 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:10:46.979 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:10:46.980 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:10:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 59.10829898959612
+2026-03-14 18:10:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.76279817395844
+2026-03-14 18:10:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 73.13759801455446
+2026-03-14 18:11:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.209626925539105
+2026-03-14 18:11:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 152.38225639565658
+2026-03-14 18:11:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 49.41496940618002
+2026-03-14 18:11:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.28035184137069
+2026-03-14 18:11:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 64.59834796585426
+2026-03-14 18:11:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 102.54971823331049
+2026-03-14 18:11:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.793434066681783
+2026-03-14 18:11:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 46.62315354738993
+2026-03-14 18:11:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 24.88766382229913
+2026-03-14 18:11:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.855191030051834
+2026-03-14 18:11:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 57.25930501905927
+2026-03-14 18:11:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.208002374655294
+2026-03-14 18:11:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 264.80475515235395
+2026-03-14 18:11:46.971 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:11:46.973 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:11:46.983 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:11:46.984 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:11:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 72.57532509444283
+2026-03-14 18:11:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.870292232674114
+2026-03-14 18:11:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 142.19840162048774
+2026-03-14 18:12:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 235.2426228111065
+2026-03-14 18:12:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 64.8854706540643
+2026-03-14 18:12:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.13066140414402
+2026-03-14 18:12:10.931 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.35195620585266
+2026-03-14 18:12:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 40.96022875635097
+2026-03-14 18:12:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 292.30043727423805
+2026-03-14 18:12:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.20340407854905
+2026-03-14 18:12:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 78.20730071007412
+2026-03-14 18:12:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 148.71709971984532
+2026-03-14 18:12:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.899064736189462
+2026-03-14 18:12:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 54.10928979484328
+2026-03-14 18:12:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.484804061143926
+2026-03-14 18:12:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 253.96378309439336
+2026-03-14 18:12:46.975 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:12:46.978 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:12:46.985 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:12:46.988 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:12:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 61.33073361392801
+2026-03-14 18:12:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.754897875771146
+2026-03-14 18:12:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 217.95256188705645
+2026-03-14 18:13:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 68.15403856249532
+2026-03-14 18:13:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.81843199415169
+2026-03-14 18:13:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 13.017252408319957
+2026-03-14 18:13:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.706784011953822
+2026-03-14 18:13:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 69.95343305732086
+2026-03-14 18:13:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 66.7708459815246
+2026-03-14 18:13:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.26439107347806
+2026-03-14 18:13:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 68.49863578252707
+2026-03-14 18:13:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 178.16844107107212
+2026-03-14 18:13:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.640205784181838
+2026-03-14 18:13:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 52.647678721703315
+2026-03-14 18:13:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.221619345653533
+2026-03-14 18:13:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 61.374893386357186
+2026-03-14 18:13:46.981 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:13:46.983 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:13:46.989 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:13:46.991 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:13:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 75.83101374726888
+2026-03-14 18:13:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.81300028515383
+2026-03-14 18:13:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 149.05743662216278
+2026-03-14 18:14:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.377741000006726
+2026-03-14 18:14:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 233.75071012265093
+2026-03-14 18:14:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 68.9592904302594
+2026-03-14 18:14:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.527513825106173
+2026-03-14 18:14:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.06074901281903
+2026-03-14 18:14:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 49.94304020068283
+2026-03-14 18:14:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.919442979798646
+2026-03-14 18:14:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 44.50881891398251
+2026-03-14 18:14:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 268.92181426985235
+2026-03-14 18:14:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.193380468676345
+2026-03-14 18:14:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 72.56504556807559
+2026-03-14 18:14:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.42846006449912
+2026-03-14 18:14:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 276.4899713253401
+2026-03-14 18:14:46.984 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:14:46.986 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:14:46.994 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:14:46.997 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:14:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 60.92410608045607
+2026-03-14 18:14:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.988200040890966
+2026-03-14 18:14:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 124.94431207971206
+2026-03-14 18:15:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.322011378924238
+2026-03-14 18:15:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 66.77273567080431
+2026-03-14 18:15:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 227.98341172158715
+2026-03-14 18:15:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.05083404132671
+2026-03-14 18:15:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 58.216207319960006
+2026-03-14 18:15:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 242.36643578406606
+2026-03-14 18:15:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.002863873036848
+2026-03-14 18:15:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 59.05577861363204
+2026-03-14 18:15:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 99.35686806067766
+2026-03-14 18:15:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.494959522494206
+2026-03-14 18:15:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 41.07591299481236
+2026-03-14 18:15:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.91218037235938
+2026-03-14 18:15:42.929 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 42.896246158147044
+2026-03-14 18:15:46.986 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:15:46.988 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:15:46.998 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:15:47.000 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:15:48.929 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 51.21826108449869
+2026-03-14 18:15:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.48266397863864
+2026-03-14 18:15:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 279.1376647930588
+2026-03-14 18:16:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.339737356275904
+2026-03-14 18:16:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 42.71223372380606
+2026-03-14 18:16:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 135.34988953662696
+2026-03-14 18:16:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.28383850680132
+2026-03-14 18:16:12.932 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 65.48640375093746
+2026-03-14 18:16:14.932 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 91.5089295693339
+2026-03-14 18:16:20.931 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.096283225752373
+2026-03-14 18:16:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 77.52184657997113
+2026-03-14 18:16:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 23.765912459187955
+2026-03-14 18:16:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.36351602999946
+2026-03-14 18:16:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 61.39409068700277
+2026-03-14 18:16:40.931 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.306761907192307
+2026-03-14 18:16:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 219.77724812808788
+2026-03-14 18:16:46.991 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:16:46.994 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:16:47.002 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:16:47.004 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:16:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 49.630098659327565
+2026-03-14 18:16:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.258834425929948
+2026-03-14 18:16:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 243.55871100477856
+2026-03-14 18:17:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.587064859332088
+2026-03-14 18:17:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 65.17525855884439
+2026-03-14 18:17:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 47.57552491563081
+2026-03-14 18:17:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.33485927291961
+2026-03-14 18:17:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 46.835561615409155
+2026-03-14 18:17:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 92.61827483773631
+2026-03-14 18:17:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.684733442397853
+2026-03-14 18:17:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 68.01393017954737
+2026-03-14 18:17:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 202.90282978474937
+2026-03-14 18:17:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.4906064992872
+2026-03-14 18:17:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 56.34775491920311
+2026-03-14 18:17:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.648610857082453
+2026-03-14 18:17:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 194.97602707987863
+2026-03-14 18:17:46.995 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:17:46.997 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:17:47.006 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:17:47.008 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:17:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 50.29862932225255
+2026-03-14 18:17:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.770869963190975
+2026-03-14 18:17:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 30.76457229690194
+2026-03-14 18:18:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.664376730501683
+2026-03-14 18:18:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 284.68974278075126
+2026-03-14 18:18:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 57.69356427123208
+2026-03-14 18:18:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.83215310225065
+2026-03-14 18:18:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 68.99811912062205
+2026-03-14 18:18:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 4.016510334052247
+2026-03-14 18:18:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.71885441223421
+2026-03-14 18:18:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 72.21284705796616
+2026-03-14 18:18:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 100.5452598860103
+2026-03-14 18:18:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.836510846284355
+2026-03-14 18:18:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 46.777628569425765
+2026-03-14 18:18:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.955063443752906
+2026-03-14 18:18:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 184.71651486278293
+2026-03-14 18:18:46.999 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:18:47.001 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:18:47.010 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:18:47.012 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:18:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 63.089920085944605
+2026-03-14 18:18:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.974632077322443
+2026-03-14 18:18:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 61.074536328516395
+2026-03-14 18:19:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.83992542316846
+2026-03-14 18:19:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 75.5162775203134
+2026-03-14 18:19:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 166.1228904315409
+2026-03-14 18:19:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.00635359629426
+2026-03-14 18:19:12.932 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 57.669082811158574
+2026-03-14 18:19:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 14.975461613207875
+2026-03-14 18:19:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.215530101851172
+2026-03-14 18:19:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 62.1351453622695
+2026-03-14 18:19:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 190.47266435431186
+2026-03-14 18:19:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.24235552159059
+2026-03-14 18:19:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 71.88877474270005
+2026-03-14 18:19:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.956357299197496
+2026-03-14 18:19:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 125.19583334150573
+2026-03-14 18:19:47.002 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:19:47.004 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:19:47.014 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:19:47.016 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:19:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 41.357680142176314
+2026-03-14 18:19:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.330911177640047
+2026-03-14 18:19:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 229.57052784469712
+2026-03-14 18:20:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.44333240409929
+2026-03-14 18:20:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 151.87511203441744
+2026-03-14 18:20:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 43.87677961435184
+2026-03-14 18:20:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.882494956513508
+2026-03-14 18:20:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 49.269204529771564
+2026-03-14 18:20:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 56.36701894906145
+2026-03-14 18:20:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.205685385111643
+2026-03-14 18:20:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 47.4662267490783
+2026-03-14 18:20:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 187.66821774882123
+2026-03-14 18:20:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.3277673414238
+2026-03-14 18:20:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 54.741468327516046
+2026-03-14 18:20:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.07762487132624
+2026-03-14 18:20:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 34.29922912926351
+2026-03-14 18:20:47.005 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:20:47.007 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:20:47.016 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:20:47.018 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:20:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 73.26894144532962
+2026-03-14 18:20:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.44595361631439
+2026-03-14 18:20:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 276.33063853837007
+2026-03-14 18:21:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.959197439662006
+2026-03-14 18:21:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 61.28307113715697
+2026-03-14 18:21:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 213.83671870925855
+2026-03-14 18:21:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.218163566980657
+2026-03-14 18:21:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 42.449779356094005
+2026-03-14 18:21:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 265.34068078731326
+2026-03-14 18:21:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.968517243804694
+2026-03-14 18:21:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 78.4266693797061
+2026-03-14 18:21:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 174.5964703454183
+2026-03-14 18:21:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.351195528768535
+2026-03-14 18:21:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.0160136369106
+2026-03-14 18:21:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.580909732259933
+2026-03-14 18:21:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 46.66097116917817
+2026-03-14 18:21:47.008 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:21:47.010 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:21:47.019 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:21:47.021 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:21:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 45.63392560150768
+2026-03-14 18:21:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.34405084917068
+2026-03-14 18:21:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 252.396317621619
+2026-03-14 18:22:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.54776121586945
+2026-03-14 18:22:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 71.76118558616861
+2026-03-14 18:22:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 66.21962965003344
+2026-03-14 18:22:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.20650492319282
+2026-03-14 18:22:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 71.4330245071631
+2026-03-14 18:22:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 142.9257786665798
+2026-03-14 18:22:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.96396103134192
+2026-03-14 18:22:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 75.1084585009435
+2026-03-14 18:22:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 124.09766545067804
+2026-03-14 18:22:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.026006268649773
+2026-03-14 18:22:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.1356553075702
+2026-03-14 18:22:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.644143822751545
+2026-03-14 18:22:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 202.70033998505556
+2026-03-14 18:22:47.011 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:22:47.013 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:22:47.021 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:22:47.022 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:22:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 72.81019793626564
+2026-03-14 18:22:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.030989974641614
+2026-03-14 18:22:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 79.30119790499852
+2026-03-14 18:23:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.920431499543312
+2026-03-14 18:23:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 185.751275201926
+2026-03-14 18:23:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 64.36198120227803
+2026-03-14 18:23:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.830014487644373
+2026-03-14 18:23:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.16159034213254
+2026-03-14 18:23:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 74.55457564923492
+2026-03-14 18:23:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.06505418634727
+2026-03-14 18:23:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.800642193551
+2026-03-14 18:23:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 50.603978518301496
+2026-03-14 18:23:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.36425059762622
+2026-03-14 18:23:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 64.55912772637666
+2026-03-14 18:23:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.419420288411743
+2026-03-14 18:23:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 281.44239451763644
+2026-03-14 18:23:47.015 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:23:47.018 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:23:47.024 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:23:47.026 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:23:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 40.791646760607044
+2026-03-14 18:23:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.137166762010168
+2026-03-14 18:23:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 84.71708115268478
+2026-03-14 18:24:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.221056887576186
+2026-03-14 18:24:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 269.7911043078095
+2026-03-14 18:24:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 77.86669720038272
+2026-03-14 18:24:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.37145096633303
+2026-03-14 18:24:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.77748342454052
+2026-03-14 18:24:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 77.23974452226882
+2026-03-14 18:24:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.00682999897313
+2026-03-14 18:24:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 71.2512056241086
+2026-03-14 18:24:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 239.7192598048614
+2026-03-14 18:24:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.42080504931726
+2026-03-14 18:24:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 60.30567958271958
+2026-03-14 18:24:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.085105309815905
+2026-03-14 18:24:42.929 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 60.59184295904066
+2026-03-14 18:24:47.018 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:24:47.020 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:24:47.028 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:24:47.030 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:24:48.929 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 55.446107793101746
+2026-03-14 18:24:50.928 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.96588719057309
+2026-03-14 18:24:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 122.80483082896428
+2026-03-14 18:25:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 66.24074017581898
+2026-03-14 18:25:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.834367635315978
+2026-03-14 18:25:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 29.421004118076844
+2026-03-14 18:25:10.931 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.085907170249303
+2026-03-14 18:25:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 53.95148569456353
+2026-03-14 18:25:14.932 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 18.378487532932287
+2026-03-14 18:25:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.480740234208902
+2026-03-14 18:25:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 44.29292679734812
+2026-03-14 18:25:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 204.06208878955405
+2026-03-14 18:25:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.162805692663163
+2026-03-14 18:25:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 41.209320775949195
+2026-03-14 18:25:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.4519474695192
+2026-03-14 18:25:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 49.68123359091771
+2026-03-14 18:25:47.021 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:25:47.023 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:25:47.032 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:25:47.033 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:25:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 75.2549196157146
+2026-03-14 18:25:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.29339118785766
+2026-03-14 18:25:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 158.7430374605732
+2026-03-14 18:26:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.04984009428224
+2026-03-14 18:26:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 280.6782895291206
+2026-03-14 18:26:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 74.74778335154275
+2026-03-14 18:26:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.048102334661372
+2026-03-14 18:26:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 62.40197892100175
+2026-03-14 18:26:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 101.25266424258965
+2026-03-14 18:26:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.47671737588717
+2026-03-14 18:26:24.932 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 44.43516821591486
+2026-03-14 18:26:28.932 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 209.55375218191068
+2026-03-14 18:26:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.400163716334074
+2026-03-14 18:26:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 66.00607695265731
+2026-03-14 18:26:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.24489185481542
+2026-03-14 18:26:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 154.0186478634842
+2026-03-14 18:26:47.024 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:26:47.026 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:26:47.034 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:26:47.036 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:26:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 70.95518747498991
+2026-03-14 18:26:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.03975853314713
+2026-03-14 18:26:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 283.71069288769746
+2026-03-14 18:27:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 69.98527665888984
+2026-03-14 18:27:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.81094009815637
+2026-03-14 18:27:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 45.45494256177645
+2026-03-14 18:27:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.79524690477374
+2026-03-14 18:27:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.5695676348521
+2026-03-14 18:27:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 6.349654391827753
+2026-03-14 18:27:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.05509329284331
+2026-03-14 18:27:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 79.73451073234824
+2026-03-14 18:27:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 157.72691216883916
+2026-03-14 18:27:30.931 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.76194551273432
+2026-03-14 18:27:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 54.382535726869996
+2026-03-14 18:27:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.414153784898073
+2026-03-14 18:27:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 103.46356561832073
+2026-03-14 18:27:47.028 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:27:47.030 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:27:47.037 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:27:47.038 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:27:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 56.32513965823584
+2026-03-14 18:27:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.113375544776147
+2026-03-14 18:27:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 189.42879058272922
+2026-03-14 18:28:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.932311444383014
+2026-03-14 18:28:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 261.7160637433877
+2026-03-14 18:28:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 57.67837417460501
+2026-03-14 18:28:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.411093190417358
+2026-03-14 18:28:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 55.59049951786979
+2026-03-14 18:28:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 174.02982764594776
+2026-03-14 18:28:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.43636151691249
+2026-03-14 18:28:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.42437419472736
+2026-03-14 18:28:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 33.30499214896824
+2026-03-14 18:28:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.53143941662501
+2026-03-14 18:28:36.932 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 45.76180310647654
+2026-03-14 18:28:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.109221056666396
+2026-03-14 18:28:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 41.27240613202028
+2026-03-14 18:28:47.031 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:28:47.034 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:28:47.040 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:28:47.042 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:28:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 70.81124865644347
+2026-03-14 18:28:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.23681866076939
+2026-03-14 18:28:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 186.16297941229502
+2026-03-14 18:29:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.16501044029391
+2026-03-14 18:29:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 56.12943640128032
+2026-03-14 18:29:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 69.16169727711926
+2026-03-14 18:29:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.478261376362905
+2026-03-14 18:29:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 73.88986159149908
+2026-03-14 18:29:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 224.06280480388526
+2026-03-14 18:29:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.502002167595734
+2026-03-14 18:29:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 75.40273294113956
+2026-03-14 18:29:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 44.02640956082771
+2026-03-14 18:29:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.616401947090285
+2026-03-14 18:29:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 79.065562574489
+2026-03-14 18:29:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.587627882191082
+2026-03-14 18:29:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 280.5365194025043
+2026-03-14 18:29:47.035 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:29:47.038 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:29:47.043 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:29:47.045 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:29:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 67.31955844075651
+2026-03-14 18:29:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.13814132135679
+2026-03-14 18:29:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 0.16985990668793027
+2026-03-14 18:30:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.992694220492677
+2026-03-14 18:30:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 48.00794371837604
+2026-03-14 18:30:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 295.2718110374358
+2026-03-14 18:30:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.671367513336843
+2026-03-14 18:30:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 64.90359003266794
+2026-03-14 18:30:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 269.4704542818938
+2026-03-14 18:30:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.46702303806646
+2026-03-14 18:30:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 66.23035294688566
+2026-03-14 18:30:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 289.2532295460188
+2026-03-14 18:30:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.55459422584027
+2026-03-14 18:30:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 52.26632206449919
+2026-03-14 18:30:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.355340541673982
+2026-03-14 18:30:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 100.0440522240327
+2026-03-14 18:30:47.040 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:30:47.042 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:30:47.047 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:30:47.049 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:30:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 74.95674670016427
+2026-03-14 18:30:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.173813794014755
+2026-03-14 18:30:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 299.2681219561475
+2026-03-14 18:31:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.36487125614256
+2026-03-14 18:31:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 21.91001092909508
+2026-03-14 18:31:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 53.427139574118655
+2026-03-14 18:31:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.845943892081223
+2026-03-14 18:31:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 53.206364563366805
+2026-03-14 18:31:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 236.6831761433946
+2026-03-14 18:31:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.17108686168128
+2026-03-14 18:31:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 52.10102742585719
+2026-03-14 18:31:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 245.5744688036871
+2026-03-14 18:31:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.17560707104325
+2026-03-14 18:31:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 43.888123573820565
+2026-03-14 18:31:40.932 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.806855392611816
+2026-03-14 18:31:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 44.55308198954043
+2026-03-14 18:31:47.043 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:31:47.045 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:31:47.052 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:31:47.054 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:31:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.67663431691564
+2026-03-14 18:31:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.56211279281094
+2026-03-14 18:31:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 183.87395686334415
+2026-03-14 18:32:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.514641023361577
+2026-03-14 18:32:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 71.31358228014749
+2026-03-14 18:32:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 210.25184162046955
+2026-03-14 18:32:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.98934395338904
+2026-03-14 18:32:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 78.49731187681395
+2026-03-14 18:32:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 214.20028397599714
+2026-03-14 18:32:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.24968288604837
+2026-03-14 18:32:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 71.5450634585468
+2026-03-14 18:32:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 0.2114177700854425
+2026-03-14 18:32:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.204608343267715
+2026-03-14 18:32:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 52.400773468568445
+2026-03-14 18:32:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.98460884488533
+2026-03-14 18:32:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 161.71799365522418
+2026-03-14 18:32:47.047 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:32:47.049 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:32:47.056 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:32:47.057 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:32:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 44.98502852475047
+2026-03-14 18:32:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.87821218535006
+2026-03-14 18:32:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 119.24699402691171
+2026-03-14 18:33:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.415777684994197
+2026-03-14 18:33:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 62.44296331075924
+2026-03-14 18:33:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 87.19822899716677
+2026-03-14 18:33:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.34523471905387
+2026-03-14 18:33:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 41.72920170878125
+2026-03-14 18:33:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 132.47018223777624
+2026-03-14 18:33:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.410878257148727
+2026-03-14 18:33:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 78.39517967089904
+2026-03-14 18:33:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 66.14765961636452
+2026-03-14 18:33:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.525236127271253
+2026-03-14 18:33:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 48.9760642091218
+2026-03-14 18:33:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.063905526732164
+2026-03-14 18:33:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 78.51749614767984
+2026-03-14 18:33:47.050 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:33:47.052 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:33:47.059 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:33:47.060 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:33:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 43.08314016157745
+2026-03-14 18:33:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.780020832075248
+2026-03-14 18:33:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 182.95731151036557
+2026-03-14 18:34:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.715277087546244
+2026-03-14 18:34:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 42.847041171951815
+2026-03-14 18:34:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 62.017941526198584
+2026-03-14 18:34:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.104057512092684
+2026-03-14 18:34:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 63.5093834383168
+2026-03-14 18:34:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 296.42164099754416
+2026-03-14 18:34:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.35510055057218
+2026-03-14 18:34:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 75.36326836112826
+2026-03-14 18:34:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 108.59405876841163
+2026-03-14 18:34:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.338916819700778
+2026-03-14 18:34:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 51.573563778684516
+2026-03-14 18:34:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.548918689108483
+2026-03-14 18:34:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 164.1735839651003
+2026-03-14 18:34:47.054 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:34:47.056 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:34:47.061 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:34:47.062 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:34:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 69.00842435393923
+2026-03-14 18:34:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.105094134488766
+2026-03-14 18:34:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 261.30686003023516
+2026-03-14 18:35:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.076754643873404
+2026-03-14 18:35:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 192.27646893878517
+2026-03-14 18:35:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 71.45270325940783
+2026-03-14 18:35:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.641522126994786
+2026-03-14 18:35:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 59.657137786279854
+2026-03-14 18:35:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 277.12858449251183
+2026-03-14 18:35:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.154087637951204
+2026-03-14 18:35:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 66.06665146199734
+2026-03-14 18:35:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 121.58533126949096
+2026-03-14 18:35:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.307225211912993
+2026-03-14 18:35:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 41.060743974651494
+2026-03-14 18:35:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.310118975637685
+2026-03-14 18:35:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 193.85773496792467
+2026-03-14 18:35:47.058 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:35:47.060 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:35:47.063 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:35:47.064 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:35:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 58.82084942122172
+2026-03-14 18:35:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.963427680694963
+2026-03-14 18:35:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 2.9105058039038068
+2026-03-14 18:36:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.427683191879833
+2026-03-14 18:36:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 97.03722317103563
+2026-03-14 18:36:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 48.16514091672215
+2026-03-14 18:36:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.57341822791114
+2026-03-14 18:36:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 68.70673114387807
+2026-03-14 18:36:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 2.7613071727486727
+2026-03-14 18:36:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.54368096043382
+2026-03-14 18:36:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 65.9371408447666
+2026-03-14 18:36:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 99.22505027276839
+2026-03-14 18:36:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.930947549643918
+2026-03-14 18:36:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 69.4472174738732
+2026-03-14 18:36:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.792493972091375
+2026-03-14 18:36:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 104.25422902420478
+2026-03-14 18:36:47.061 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:36:47.063 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:36:47.066 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:36:47.068 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:36:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 63.81584937049801
+2026-03-14 18:36:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.05841649179748
+2026-03-14 18:36:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 121.68025031407196
+2026-03-14 18:37:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.736128519386494
+2026-03-14 18:37:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 75.86939658754775
+2026-03-14 18:37:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 154.85965184630993
+2026-03-14 18:37:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.819120621261305
+2026-03-14 18:37:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 65.63319500350411
+2026-03-14 18:37:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 90.9322685769134
+2026-03-14 18:37:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.910120568582006
+2026-03-14 18:37:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 55.54962686337781
+2026-03-14 18:37:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 247.5406224168079
+2026-03-14 18:37:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.945997679453267
+2026-03-14 18:37:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 61.54285472488305
+2026-03-14 18:37:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.99164006019278
+2026-03-14 18:37:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 26.166087068073175
+2026-03-14 18:37:47.065 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:37:47.068 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:37:47.069 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:37:47.074 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:37:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 47.96496673618022
+2026-03-14 18:37:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.797298681800935
+2026-03-14 18:37:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 87.36794197471438
+2026-03-14 18:38:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.28174455375199
+2026-03-14 18:38:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 277.3285413847042
+2026-03-14 18:38:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 41.536573583184996
+2026-03-14 18:38:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.0558316912122
+2026-03-14 18:38:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.78498821261879
+2026-03-14 18:38:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 64.09398001151919
+2026-03-14 18:38:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.743790222064813
+2026-03-14 18:38:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 67.71103992025161
+2026-03-14 18:38:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 111.14103369381863
+2026-03-14 18:38:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.41357324011933
+2026-03-14 18:38:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 44.4970407935437
+2026-03-14 18:38:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.572708708323763
+2026-03-14 18:38:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 88.7090888889684
+2026-03-14 18:38:47.069 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:38:47.071 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:38:47.075 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:38:47.079 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:38:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 56.405013404637685
+2026-03-14 18:38:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.801636479724902
+2026-03-14 18:38:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 244.8442497316982
+2026-03-14 18:39:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.24077839263401
+2026-03-14 18:39:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 58.60698259852113
+2026-03-14 18:39:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 170.0148105223087
+2026-03-14 18:39:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.898750479243954
+2026-03-14 18:39:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 60.182360241909635
+2026-03-14 18:39:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 58.49924770755281
+2026-03-14 18:39:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.24361673319992
+2026-03-14 18:39:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 71.1433432913698
+2026-03-14 18:39:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 86.94292097147824
+2026-03-14 18:39:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.652434400010407
+2026-03-14 18:39:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 74.05563967342405
+2026-03-14 18:39:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.202026344372776
+2026-03-14 18:39:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 231.901388307877
+2026-03-14 18:39:47.078 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:39:47.080 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:39:47.083 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:39:47.084 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:39:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 51.67512697509973
+2026-03-14 18:39:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.576336287880935
+2026-03-14 18:39:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 21.753856982844777
+2026-03-14 18:40:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.458074786701403
+2026-03-14 18:40:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 17.660849195553695
+2026-03-14 18:40:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 56.675295525124085
+2026-03-14 18:40:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.481946611409064
+2026-03-14 18:40:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 74.1944077893781
+2026-03-14 18:40:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 201.11515316567954
+2026-03-14 18:40:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.961261943954568
+2026-03-14 18:40:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 57.54045156050361
+2026-03-14 18:40:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 164.326654263416
+2026-03-14 18:40:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.884130909658268
+2026-03-14 18:40:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 61.616907272427326
+2026-03-14 18:40:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.52783464123968
+2026-03-14 18:40:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 242.65393791197084
+2026-03-14 18:40:47.081 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:40:47.083 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:40:47.086 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:40:47.087 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:40:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 46.055959788789394
+2026-03-14 18:40:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.706176488351034
+2026-03-14 18:40:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 56.49476691489645
+2026-03-14 18:41:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.135915536704488
+2026-03-14 18:41:00.933 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 177.5459660481728
+2026-03-14 18:41:00.933 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 70.68741995147498
+2026-03-14 18:41:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.79802653514148
+2026-03-14 18:41:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 70.39226957940717
+2026-03-14 18:41:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 298.2376881006253
+2026-03-14 18:41:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.47960461823469
+2026-03-14 18:41:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 60.70537995035281
+2026-03-14 18:41:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 102.14576088088144
+2026-03-14 18:41:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.262152505016818
+2026-03-14 18:41:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 74.48804125941751
+2026-03-14 18:41:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.186067532207343
+2026-03-14 18:41:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 179.7006109726063
+2026-03-14 18:41:47.084 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:41:47.086 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:41:47.088 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:41:47.091 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:41:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 50.110622306674884
+2026-03-14 18:41:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.422869067454812
+2026-03-14 18:41:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 270.90423403833574
+2026-03-14 18:42:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.624556445421916
+2026-03-14 18:42:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 41.971424770403054
+2026-03-14 18:42:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 29.53707939969501
+2026-03-14 18:42:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.08170433941824
+2026-03-14 18:42:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 67.20846723124546
+2026-03-14 18:42:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 136.46185351474335
+2026-03-14 18:42:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.25347405851135
+2026-03-14 18:42:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 47.938782920217484
+2026-03-14 18:42:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 132.2311563538927
+2026-03-14 18:42:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.239428017332532
+2026-03-14 18:42:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 72.15916790253186
+2026-03-14 18:42:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.61233933088829
+2026-03-14 18:42:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 69.36892339027209
+2026-03-14 18:42:47.090 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:42:47.092 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:42:47.092 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:42:47.093 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:42:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 56.8645968883193
+2026-03-14 18:42:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.542677388324673
+2026-03-14 18:42:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 178.21499303928968
+2026-03-14 18:43:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.471183971721118
+2026-03-14 18:43:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 37.92600602198307
+2026-03-14 18:43:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 41.171344486685804
+2026-03-14 18:43:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.051651235045295
+2026-03-14 18:43:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 71.76209722652116
+2026-03-14 18:43:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 46.922094919557125
+2026-03-14 18:43:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.65156967672949
+2026-03-14 18:43:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 73.53013510946893
+2026-03-14 18:43:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 67.42981540536252
+2026-03-14 18:43:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.130370545825542
+2026-03-14 18:43:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 52.98299425974231
+2026-03-14 18:43:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.28630542570329
+2026-03-14 18:43:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 201.55683144484937
+2026-03-14 18:43:47.095 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:43:47.096 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:43:47.097 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:43:47.097 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:43:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 75.60723266593966
+2026-03-14 18:43:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.007420535774266
+2026-03-14 18:43:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 71.60618801426064
+2026-03-14 18:44:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.504762316879958
+2026-03-14 18:44:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 250.2223318177419
+2026-03-14 18:44:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.76745684896238
+2026-03-14 18:44:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.266836761139174
+2026-03-14 18:44:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 45.84651311058667
+2026-03-14 18:44:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 229.99295330819288
+2026-03-14 18:44:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.814819753585596
+2026-03-14 18:44:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 56.57696280002575
+2026-03-14 18:44:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 46.43268029723887
+2026-03-14 18:44:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.974941908909393
+2026-03-14 18:44:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 73.00101511236551
+2026-03-14 18:44:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.96411637059866
+2026-03-14 18:44:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 188.6734459137559
+2026-03-14 18:44:47.098 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:44:47.099 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:44:47.099 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:44:47.100 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:44:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 66.7726151742959
+2026-03-14 18:44:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.97454292225668
+2026-03-14 18:44:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 145.94151785325096
+2026-03-14 18:45:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.71992958554159
+2026-03-14 18:45:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 67.99482282636741
+2026-03-14 18:45:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 51.998090379016844
+2026-03-14 18:45:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.073702566940216
+2026-03-14 18:45:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 67.56946768496825
+2026-03-14 18:45:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 251.37227190334167
+2026-03-14 18:45:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.350274741925126
+2026-03-14 18:45:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 49.02007527012229
+2026-03-14 18:45:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 278.8996301109114
+2026-03-14 18:45:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.897750575050907
+2026-03-14 18:45:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 69.31531666958418
+2026-03-14 18:45:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.695801057267374
+2026-03-14 18:45:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 118.82406227306004
+2026-03-14 18:45:47.101 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:45:47.102 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:45:47.103 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:45:47.103 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:45:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 46.43153958661154
+2026-03-14 18:45:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.80037093807422
+2026-03-14 18:45:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 51.469098160201284
+2026-03-14 18:46:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.800327870312916
+2026-03-14 18:46:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 48.88617778413757
+2026-03-14 18:46:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 257.02430343143794
+2026-03-14 18:46:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.449480894726236
+2026-03-14 18:46:12.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 55.530363606525626
+2026-03-14 18:46:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 87.18724390789885
+2026-03-14 18:46:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.559286006157727
+2026-03-14 18:46:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 73.66633309000956
+2026-03-14 18:46:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 123.49701687525346
+2026-03-14 18:46:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 23.393527125086628
+2026-03-14 18:46:36.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 69.72650806590245
+2026-03-14 18:46:40.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.901654095590274
+2026-03-14 18:46:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 204.5006458490257
+2026-03-14 18:46:47.104 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:46:47.105 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:46:47.106 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:46:47.110 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:46:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 60.93391642437976
+2026-03-14 18:46:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.627224667923507
+2026-03-14 18:46:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 149.4786342574848
+2026-03-14 18:47:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.922036336456653
+2026-03-14 18:47:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 53.77521941701168
+2026-03-14 18:47:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 189.68227322475946
+2026-03-14 18:47:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.252727572396154
+2026-03-14 18:47:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 44.67286930885328
+2026-03-14 18:47:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 80.26167551728001
+2026-03-14 18:47:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.296776083872373
+2026-03-14 18:47:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 74.01079455066741
+2026-03-14 18:47:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 17.631106649979944
+2026-03-14 18:47:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.712067034268312
+2026-03-14 18:47:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 56.09758544405703
+2026-03-14 18:47:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.8818495978446
+2026-03-14 18:47:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 176.3350569020181
+2026-03-14 18:47:47.109 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:47:47.111 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:47:47.111 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:47:47.116 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:47:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 62.06267278072259
+2026-03-14 18:47:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.435309968268292
+2026-03-14 18:47:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 43.347195140532804
+2026-03-14 18:48:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.634080886714237
+2026-03-14 18:48:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 77.79740469518705
+2026-03-14 18:48:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 169.1615847300012
+2026-03-14 18:48:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.536818835823293
+2026-03-14 18:48:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 43.942223109231506
+2026-03-14 18:48:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 94.43192103156481
+2026-03-14 18:48:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.39895965839784
+2026-03-14 18:48:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 66.6929896023378
+2026-03-14 18:48:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 95.6662462927392
+2026-03-14 18:48:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.71798103538177
+2026-03-14 18:48:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 73.68462122067496
+2026-03-14 18:48:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.627721216909435
+2026-03-14 18:48:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 99.13190968240629
+2026-03-14 18:48:47.111 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:48:47.113 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:48:47.117 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:48:47.119 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:48:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 73.69277685083573
+2026-03-14 18:48:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.097621435584593
+2026-03-14 18:48:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 224.81331634224762
+2026-03-14 18:49:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 28.836207244406705
+2026-03-14 18:49:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 40.13465963846015
+2026-03-14 18:49:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 55.515896397245946
+2026-03-14 18:49:10.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.14508454397278
+2026-03-14 18:49:12.932 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 55.385569457074446
+2026-03-14 18:49:14.932 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 105.82738338037765
+2026-03-14 18:49:20.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.21716701532509
+2026-03-14 18:49:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 45.28476475046795
+2026-03-14 18:49:28.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 144.66017478987314
+2026-03-14 18:49:30.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.5975445608648
+2026-03-14 18:49:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 44.90647963303059
+2026-03-14 18:49:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.99635148242085
+2026-03-14 18:49:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 75.07994425774811
+2026-03-14 18:49:47.115 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:49:47.118 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:49:47.121 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:49:47.123 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:49:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 52.54887881451039
+2026-03-14 18:49:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.50499178300356
+2026-03-14 18:49:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 51.76121262712028
+2026-03-14 18:50:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.48805799766788
+2026-03-14 18:50:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 76.73768005764887
+2026-03-14 18:50:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 104.95285148668493
+2026-03-14 18:50:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.51909657495604
+2026-03-14 18:50:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 72.02786139019929
+2026-03-14 18:50:14.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 148.37701400326617
+2026-03-14 18:50:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.909724843333883
+2026-03-14 18:50:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 71.37436417694492
+2026-03-14 18:50:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 63.44433267611965
+2026-03-14 18:50:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.137590700880104
+2026-03-14 18:50:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 74.0369884299637
+2026-03-14 18:50:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 26.550994299626783
+2026-03-14 18:50:42.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 172.5292196652924
+2026-03-14 18:50:47.120 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:50:47.122 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:50:47.124 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:50:47.128 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:50:48.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 44.08569974295739
+2026-03-14 18:50:50.930 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 29.40969951414799
+2026-03-14 18:50:52.644 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'ml_items.items'
+2026-03-14 18:50:56.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 162.39739380411078
+2026-03-14 18:51:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 54.559648014846125
+2026-03-14 18:51:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 90.62091166949138
+2026-03-14 18:51:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.40017976092242
+2026-03-14 18:51:02.021 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'ml_anomaly.rules'
+2026-03-14 18:51:02.022 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'ml_anomaly.rules' is either empty or cannot be parsed correctly!
+2026-03-14 18:51:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.053222095426673
+2026-03-14 18:51:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 61.55928334734249
+2026-03-14 18:51:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 218.5319585476962
+2026-03-14 18:51:20.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 27.409890515638004
+2026-03-14 18:51:21.256 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'ml_dashboard.sitemap'
+2026-03-14 18:51:21.267 [WARN ] [el.core.internal.ModelRepositoryImpl] - Configuration model 'ml_dashboard.sitemap' is either empty or cannot be parsed correctly!
+2026-03-14 18:51:24.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 43.59826046850475
+2026-03-14 18:51:28.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 274.20376227670033
+2026-03-14 18:51:30.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 31.17171544999756
+2026-03-14 18:51:36.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 65.73655777047867
+2026-03-14 18:51:40.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 25.61631559398891
+2026-03-14 18:51:42.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 14.795099770106878
+2026-03-14 18:51:47.123 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:51:47.125 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid 8c384116-f038-438d-8901-b192cba31c70
+2026-03-14 18:51:47.131 [INFO ] [.reconnect.PeriodicReconnectStrategy] - Try to restore connection to 'localhost'. Next attempt in 60000ms
+2026-03-14 18:51:47.132 [INFO ] [.transport.mqtt.MqttBrokerConnection] - Starting MQTT broker connection to 'localhost' with clientid openhab
+2026-03-14 18:51:48.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 74.67992844215499
+2026-03-14 18:51:50.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 22.228661467359643
+2026-03-14 18:51:56.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 151.19479155445333
+2026-03-14 18:52:00.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.962528530919265
+2026-03-14 18:52:00.931 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 135.36397773244278
+2026-03-14 18:52:00.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 45.0300620869907
+2026-03-14 18:52:01.140 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'ml_items.items'
+2026-03-14 18:52:10.929 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 30.109695541520967
+2026-03-14 18:52:12.930 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 48.65006980298131
+2026-03-14 18:52:14.573 [INFO ] [el.core.internal.ModelRepositoryImpl] - Loading model 'ml_anomaly.rules'
+2026-03-14 18:52:14.930 [INFO ] [org.openhab.core.model.script.STREAM] - LightStream = 235.83153249397867
+2026-03-14 18:52:20.968 [INFO ] [org.openhab.core.model.script.STREAM] - TempStream = 24.108507870467985
+2026-03-14 18:52:20.970 [ERROR] [internal.handler.ScriptActionHandler] - Script execution of rule with UID 'ml_anomaly-1' failed: An error occurred during the script execution: Could not invoke method: java.lang.Math.abs(int) on instance: null in ml_anomaly
+2026-03-14 18:52:24.931 [INFO ] [org.openhab.core.model.script.STREAM] - HumStream = 70.43419522639712

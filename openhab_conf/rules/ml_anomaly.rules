@@ -1,0 +1,64 @@
+rule "ML Temperature Model Inference"
+when
+    Item Temperature changed
+then
+
+    val Number temp = Temperature.state as Number
+
+    if(MLAvgTemp.state == NULL){
+        MLAvgTemp.postUpdate(temp)
+        MLVarianceTemp.postUpdate(0)
+    }
+    else{
+
+        val Number avg = MLAvgTemp.state as Number
+        val Number newAvg = (avg + temp) / 2
+        MLAvgTemp.postUpdate(newAvg)
+
+        val Number variance = (temp - newAvg) * (temp - newAvg)
+        MLVarianceTemp.postUpdate(variance)
+
+        val Number score = Math::abs(temp - newAvg)
+        MLAnomalyScore.postUpdate(score)
+
+        if(score > 5){
+            MLAnomalyStatus.postUpdate("ANOMALY")
+        }
+        else{
+            MLAnomalyStatus.postUpdate("NORMAL")
+        }
+
+    }
+
+end
+
+
+rule "ML Humidity Model Inference"
+when
+    Item Humidity changed
+then
+
+    val Number hum = Humidity.state as Number
+
+    if(MLAvgHumidity.state == NULL){
+        MLAvgHumidity.postUpdate(hum)
+    }
+    else{
+
+        val Number avg = MLAvgHumidity.state as Number
+        val Number newAvg = (avg + hum) / 2
+        MLAvgHumidity.postUpdate(newAvg)
+
+        val Number score = Math::abs(hum - newAvg)
+        MLHumidityScore.postUpdate(score)
+
+        if(score > 15){
+            MLHumidityStatus.postUpdate("ANOMALY")
+        }
+        else{
+            MLHumidityStatus.postUpdate("NORMAL")
+        }
+
+    }
+
+end

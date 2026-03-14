@@ -1,0 +1,13 @@
+// ===== ML ANALYTICS =====
+
+Number MLAvgTemp "ML Average Temperature [%.1f °C]"
+Number MLVarianceTemp "ML Temperature Variance [%.2f]"
+
+Number MLAnomalyScore "ML Anomaly Score [%.2f]"
+
+String MLAnomalyStatus "ML Anomaly Status [%s]"
+
+Number MLAvgHumidity "ML Average Humidity [%.1f %%]"
+Number MLHumidityScore "ML Humidity Score [%.2f]"
+
+String MLHumidityStatus "ML Humidity Status [%s]"

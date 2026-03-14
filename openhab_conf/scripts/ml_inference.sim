@@ -1,0 +1,17 @@
+Edge ML Inference Simulation
+
+Input Sensors:
+Temperature
+Humidity
+
+Model Type:
+Statistical anomaly detection
+
+Features:
+moving average
+variance
+distance from baseline
+
+Output:
+anomaly score
+anomaly classification

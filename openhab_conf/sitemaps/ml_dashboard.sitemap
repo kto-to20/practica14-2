@@ -1,0 +1,26 @@
+sitemap ml_dashboard label="Edge AI Dashboard"
+{
+
+Frame label="Sensor Data"
+{
+Text item=Temperature
+Text item=Humidity
+Text item=LightLevel
+}
+
+Frame label="ML Model Metrics"
+{
+Text item=MLAvgTemp
+Text item=MLVarianceTemp
+Text item=MLAnomalyScore
+Text item=MLAnomalyStatus
+}
+
+Frame label="Humidity ML Model"
+{
+Text item=MLAvgHumidity
+Text item=MLHumidityScore
+Text item=MLHumidityStatus
+}
+
+}
